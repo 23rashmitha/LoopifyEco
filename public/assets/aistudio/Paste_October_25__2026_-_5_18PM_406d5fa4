@@ -1,0 +1,4839 @@
+# ReLoop Campus
+
+## A Verified, Intelligent Reuse System for College Event Materials
+
+**Tagline:** Before buying new, discover what your campus can reuse.
+
+### 1. Problem Statement
+
+College festivals, technical exhibitions, seminars, workshops, cultural programs, and student events require materials such as display boards, banners, stands, signboards, decorations, props, extension items, and other reusable resources. After an event ends, many of these materials may still be in usable condition. However, other clubs, departments, and event organizers often cannot identify or access these materials because information about their availability, condition, quantity, ownership, storage location, and usage history is scattered across different people, departments, messages, and spreadsheets.
+
+As a result, colleges may purchase new materials even when suitable resources already exist on campus. At the same time, reusable materials may remain unused, get damaged due to improper storage, or be discarded without being offered for another use. Informal sharing also creates problems such as double bookings, inaccurate availability information, unclear responsibility for borrowed items, unverified handovers, missing returns, and difficulty tracking damaged or missing materials.
+
+Most importantly, organizers often begin purchasing materials without first knowing how much of their event's requirements can be fulfilled using existing campus resources. Colleges also lack a reliable way to identify missed reuse opportunities and measure the actual results of their reuse activities.
+
+**The challenge is to create a centralized, verified, and technology-backed system that helps college communities discover, reserve, reuse, maintain, and track event materials while making reuse the preferred first step before purchasing new items.**
+
+### 2. Proposed Solution
+
+ReLoop Campus is a centralized campus reuse platform that connects students, clubs, departments, event organizers, and item coordinators through a verified inventory and reservation system.
+
+The platform allows users to register reusable materials, upload images, record quantities and conditions, identify storage locations, search available items, and request them for upcoming events. It supports verified handovers and returns, condition inspections, repair tracking, QR-based item identification, and a history of each item's reuse journey.
+
+In addition to these original capabilities, ReLoop Campus introduces three innovation features:
+
+1. **Event Reuse Readiness Score:** Before an event, organizers enter their material requirements and event dates. The system checks the actual usable inventory, quantities, existing reservations, and availability dates to calculate how much of the event can be fulfilled through reuse. It highlights available materials, inspection-pending items, and shortages.
+2. **Reuse-First Decision Assistant:** The system recommends practical next steps for each requirement: reuse an available item, inspect or repair a suitable item, search for alternatives in another department, or purchase only the remaining shortage. Each recommendation includes a clear reason based on recorded inventory and availability information.
+3. **Reuse Chain and Lost-Opportunity Tracker:** The platform records the authorized journey of materials through reservations, handovers, returns, inspections, repairs, and subsequent uses. It also identifies unfulfilled requests, recurring shortages, repair delays, and reported disposal cases to help colleges understand where future reuse opportunities are being missed.
+
+Together, these features transform ReLoop Campus from a simple item-sharing directory into a system that helps organizers **plan for reuse before an event, manage materials during an event, and improve reuse decisions after an event**.
+
+### 3. Core Features
+
+#### A. Centralized Reusable Inventory
+
+- Register reusable event materials in one shared platform.
+- Store item names, descriptions, photographs, categories, quantities, condition, ownership, department, storage location, and availability status.
+- Allow authorized item owners or coordinators to update inventory records.
+- Maintain a clear record of available, reserved, borrowed, inspection-pending, under-repair, and retired items.
+
+#### B. Search and Discovery
+
+- Search for materials by name, category, department, condition, or location.
+- Filter results according to quantity, availability, and suitability for the intended event.
+- Help organizers discover reusable materials held by other clubs or departments.
+- Display relevant item information so users can decide whether a resource meets their requirements.
+
+#### C. Item Request and Reservation
+
+- Allow users to request materials for specific events and dates.
+- Let item owners or authorized coordinators approve or reject requests.
+- Track request status, reservation periods, quantities, and responsible users.
+- Prevent double booking and overlapping reservations for the same available stock.
+- Ensure that confirmed reservations reflect actual usable quantities and dates.
+
+#### D. QR-Based Reuse Passport
+
+- Generate a unique QR code for each registered item or trackable item unit, depending on the inventory design.
+- Let authorized users scan the code to view the item's identification and permitted reuse information.
+- Maintain a **Reuse Passport** showing its recorded reservation, handover, return, inspection, repair, and reuse history.
+- Support traceability and accountability throughout the item's lifecycle.
+
+#### E. Verified Handover and Return
+
+- Record when an item is issued and returned.
+- Associate handovers and returns with the relevant request, item, quantity, and authorized users.
+- Confirm return status rather than assuming an item has been returned simply because a reservation has ended.
+- Flag overdue, missing, or disputed returns for coordinator review.
+
+#### F. Condition Tracking and Repair Management
+
+- Record item condition before handover and after return.
+- Allow authorized users to report damage or missing components.
+- Mark items as available, inspection-pending, under repair, or retired as appropriate.
+- Track repair progress and return suitable repaired items to usable inventory only after verification.
+
+#### G. Event Reuse Readiness Score — *New Innovation*
+
+- Allow event organizers to enter the required materials, quantities, and event dates.
+- Compare requirements with verified, usable, and date-compatible inventory.
+- Account for existing reservations, overlapping bookings, item condition, and actual available quantities.
+- Calculate the proportion of required material units that can be fulfilled through reuse.
+- Display matched requirements, partial matches, inspection-pending items, and shortages separately.
+
+The score must be based on actual allocatable inventory. Reserved stock, unavailable items, and items awaiting inspection must not be counted as ready-to-use resources.
+
+#### H. Reuse-First Decision Assistant — *New Innovation*
+
+- Recommend available reusable items that meet an event's requirements.
+- Suggest inspection or repair when an item may be suitable but is not yet approved for use.
+- Identify possible alternatives available in other departments.
+- Highlight requirements that cannot currently be fulfilled through verified inventory.
+- Help organizers identify what still needs to be purchased after checking reuse options.
+- Explain recommendations using recorded data rather than making unsupported claims about cost or environmental benefits.
+
+#### I. Reuse Chain and Lost-Opportunity Tracker — *New Innovation*
+
+- Maintain a chronological record of an item's authorized reuse journey.
+- Track repeated use, return condition, repairs, and retirement or disposal status where recorded.
+- Identify requested materials that could not be supplied.
+- Highlight recurring shortages, frequently damaged items, repair bottlenecks, and reported cases of reusable materials being discarded.
+- Generate a **Reuse Opportunity Report** to help coordinators decide which materials should be collected, maintained, repaired, or made more accessible before future events.
+
+#### J. Impact Dashboard
+
+- Display the number of registered reusable items and available inventory.
+- Track verified completed reuses, item circulation, fulfilled requests, and repaired items.
+- Show unfulfilled requests and reported disposal or retirement cases.
+- Distinguish completed reuse from reservations that have not yet resulted in a verified handover and return.
+- Display estimated purchases avoided or environmental benefits only when supported by documented assumptions or evidence, clearly labeling estimates.
+
+#### K. Role-Based Access and Verification
+
+- Provide appropriate access for students, event organizers, item owners, department coordinators, and administrators.
+- Restrict inventory updates, reservation approvals, and verification actions to authorized roles.
+- Maintain records of important changes to support accountability.
+- Reduce inaccurate listings, unauthorized changes, and false handover or return confirmations.
+
+#### L. Notifications and Status Updates
+
+- Notify users about request approvals or rejections, reservation dates, handovers, expected returns, overdue items, and inspection updates.
+- Help item owners and event organizers coordinate through clear request statuses.
+- Remind users about outstanding returns and actions requiring coordinator attention.
+
+### 4. Example Workflow
+
+Consider a college technical exhibition that requires 10 display boards.
+
+1. **Create an event:** The organizer enters the event dates and the requirement for 10 boards.
+2. **Check readiness:** ReLoop Campus checks available quantities, conditions, and existing reservations.
+3. **Show the result:** Suppose 6 boards are verified as usable, 2 are awaiting inspection, and 4 additional boards are needed. These are illustrative figures.
+4. **Recommend actions:** The system recommends reserving the 6 usable boards, inspecting the 2 pending boards, checking other departments for alternatives, and purchasing only the confirmed remaining shortage if reuse options are insufficient.
+5. **Reserve and hand over:** Approved items are reserved and issued through a recorded handover, with QR-based identification where supported.
+6. **Return and inspect:** After the event, returned boards are inspected and their conditions updated.
+7. **Update records and insights:** The Reuse Passport records the item's verified history, while the dashboard and opportunity report update using the recorded outcomes.
+
+This workflow helps organizers make reuse decisions before purchasing, maintain accountability while borrowing materials, and improve planning for future events.
+
+### 5. Technology Stack
+
+- **Frontend:** React, TypeScript, and Vite.
+- **Backend:** Java with Spring Boot and REST APIs.
+- **Database:** MySQL or PostgreSQL for inventory, users, requests, reservations, item history, and impact records.
+- **Data access:** Spring Data JPA and Hibernate.
+- **Security:** Spring Security with role-based authorization and appropriate authentication.
+- **QR functionality:** Unique QR identifiers linked to registered inventory records.
+- **Testing:** JUnit 5, Mockito, and API testing with Postman.
+- **Reporting:** Database-backed summaries, readiness calculations, and reuse opportunity analytics.
+
+The platform can begin as a modular application with a single database. Reservation validation, transaction handling, server-side authorization, and concurrency protection should help keep inventory and booking records consistent.
+
+### 6. Environmental Sustainability Impact
+
+ReLoop Campus supports sustainability by making existing campus resources easier to discover and reuse, reducing avoidable purchases where reuse is feasible, extending the useful life of materials, encouraging repair, and improving awareness of resource circulation.
+
+Its impact reporting will distinguish between:
+
+- **Verified completed reuses:** Items whose reuse has been confirmed through the required records.
+- **Repeated item usage:** The recorded number of separate uses for tracked items.
+- **Reported avoided purchases:** Purchases users indicate they avoided because suitable existing materials were reused.
+- **Repair and recovery:** Items repaired and returned to usable inventory.
+- **Missed opportunities:** Unfulfilled requests, recurring shortages, and reported disposal cases.
+- **Estimated environmental benefits:** Calculations based on disclosed assumptions and available data, not unsupported claims.
+
+This approach makes sustainability reporting more transparent and useful for future planning.
+
+### 7. Practicality and Scalability
+
+ReLoop Campus can initially be implemented within one college, beginning with a small inventory of materials owned by student clubs, event committees, and departments. Coordinators can verify the first listings and oversee handovers while the platform establishes reliable usage records.
+
+Once the system is working, additional departments, clubs, and campuses can be added through configurable roles and location-based inventory. The same approach can later support other reusable campus resources, provided their ownership, condition, reservation, and return requirements are properly modeled.
+
+The initial version does not require expensive IoT devices, blockchain, or a complex AI model. Transparent rules and reliable records are sufficient to implement the core innovations, with more advanced capabilities considered only when justified by actual user needs.
+
+### 8. Expected Outcome
+
+ReLoop Campus aims to establish a practical, accountable, and technology-backed reuse culture in colleges. It helps organizers discover existing materials before buying new ones, gives item owners greater visibility and control, improves the tracking of borrowed resources, and identifies opportunities to repair and reuse materials that might otherwise remain idle or be discarded.
+
+**The key differentiator is not simply listing reusable items. It is connecting inventory discovery with event readiness planning, reuse-first recommendations, verified item tracking, and insights into missed reuse opportunities.**
+
+**ReLoop Campus — Discover what exists. Reuse what works. Repair what can be saved. Buy only what is still needed.**
+
+
+
+this is upgrae version of above which is best rate both
+
+
+# PHASE 1 MASTER PROMPT — RELOOP CAMPUS
+## Product Planning, UI/UX Design System, React + Vite Setup, Application Shell and Dashboard
+
+Act as a senior product designer, frontend architect, React engineer, accessibility specialist, QA engineer, and hackathon mentor.
+
+Your task is to build **Phase 1 of ReLoop Campus**, a polished, responsive, sustainability-focused web application that can compete in a college hackathon.
+
+Do not give me only suggestions, plans, mockups, or isolated code snippets. Inspect the existing project, make the required changes directly in the workspace, run the application, test it, fix errors, and document the completed work.
+
+If the repository already contains code, inspect it first. Preserve useful existing functionality, dependencies, naming conventions, and configuration. Do not overwrite or delete working code unnecessarily.
+
+---
+
+# 1. PROJECT CONTEXT
+
+## Project name
+
+ReLoop Campus
+
+## Tagline
+
+"Before buying new, discover what your campus can reuse."
+
+## Problem
+
+College festivals, exhibitions, seminars, workshops, and cultural events require display boards, banners, stands, signboards, decorations, props, and other materials.
+
+After events, reusable materials may remain unused or be discarded because students and departments cannot easily discover their availability, condition, quantity, ownership, storage location, and usage history.
+
+Organizers may buy new materials even when suitable resources already exist on campus. Informal sharing also creates double bookings, inaccurate availability, missing returns, damage-tracking problems, and limited evidence of environmental impact.
+
+## Solution
+
+ReLoop Campus is a centralized, verified campus reuse platform that helps students, event organizers, clubs, and departments discover, reserve, reuse, repair, and track event materials.
+
+The system must support the original features and the following three innovations:
+
+1. **Event Reuse Readiness Score:** Calculate how much of an upcoming event's material requirements can be fulfilled using verified, usable, date-compatible inventory.
+2. **Reuse-First Decision Assistant:** Recommend reuse, inspection, repair, alternatives from other departments, or purchasing the remaining shortage. Every recommendation must have a clear reason.
+3. **Reuse Chain and Lost-Opportunity Tracker:** Record an item's reuse journey and identify unfulfilled requests, recurring shortages, repair delays, and reported disposal cases.
+
+The application must not claim that a reservation equals a completed reuse. Environmental savings must not be fabricated.
+
+---
+
+# 2. FIXED TECHNOLOGY CONSTRAINTS
+
+Use the following technology decisions.
+
+### Frontend
+
+- React
+- Vite
+- JavaScript with JSX
+- React Router for navigation
+- Plain CSS with reusable CSS variables and component classes
+- Lucide React icons if an icon library is useful
+
+Use JavaScript rather than TypeScript for this initial version unless the existing repository is already TypeScript-based.
+
+Do not replace React + Vite with Next.js, Angular, Vue, or another framework.
+
+### Future backend
+
+- Java
+- Spring Boot
+- Spring Security
+- Spring Data JPA / Hibernate
+- REST APIs
+
+### Future database
+
+- MySQL
+
+### Testing
+
+- Frontend unit/component testing with Vitest and React Testing Library when compatible with the project
+- Browser-based functional testing where available
+- JUnit 5 and Mockito will be used in the later backend phase
+- Postman will be used for API testing in a later phase
+
+### Important scope boundary
+
+This is Phase 1. Implement the frontend foundation, product design system, application shell, navigation, and a functional initial dashboard.
+
+Do not pretend that the backend, authentication, database, reservations, or real environmental analytics already exist.
+
+For demonstration purposes, use a clearly separated mock-data layer. Do not hardcode fake metrics directly inside every component. Make it straightforward to replace the mock layer with REST API calls in Phase 4.
+
+---
+
+# 3. WORKING METHOD
+
+Follow this sequence without skipping steps.
+
+## Step 1 — Inspect the repository
+
+- Check the current directory and existing files.
+- Inspect package.json, Vite configuration, source files, CSS, installed dependencies, and existing tests.
+- Identify whether this is a new project or an existing application.
+- Identify missing dependencies and potential configuration problems.
+- Do not destroy working files.
+
+If the repository is empty or does not contain a Vite React project, initialize it safely.
+
+## Step 2 — Establish the implementation plan
+
+Create a concise implementation checklist for Phase 1.
+
+Then begin implementing it. Do not stop after writing the checklist or ask for approval for routine design decisions.
+
+## Step 3 — Build the design system
+
+Create consistent colors, typography, spacing, borders, radii, shadows, focus states, buttons, cards, form controls, badges, and layout components.
+
+## Step 4 — Build the application shell
+
+Implement the responsive sidebar, top navigation, page container, navigation links, user profile area, notification entry point, and main content region.
+
+## Step 5 — Build the initial dashboard
+
+Implement the dashboard described below using realistic, clearly labeled demonstration data.
+
+## Step 6 — Add routes and interactive behavior
+
+Implement navigation, search behavior where relevant, sidebar collapse or mobile navigation, dashboard filters where applicable, and sensible loading, empty, and error states.
+
+## Step 7 — Add tests
+
+Create tests for important UI behavior, routing, responsiveness-related layout behavior where practical, and dashboard calculations.
+
+## Step 8 — Run and verify
+
+- Install dependencies if required.
+- Run linting if configured.
+- Run the automated tests.
+- Run the production build.
+- Fix all errors introduced by your changes.
+- Report any remaining failures honestly.
+
+Do not say a test passed unless it was actually executed successfully.
+
+---
+
+# 4. VISUAL DESIGN DIRECTION
+
+The interface must look like a modern, credible sustainability SaaS product.
+
+Avoid generic dashboard templates, excessive gradients, excessive glassmorphism, oversized empty hero areas, emoji-only controls, random colors, unnecessary animation, and crowded layouts.
+
+Use a distinctive environmental visual identity.
+
+## Color palette
+
+Define reusable CSS variables approximately as follows:
+
+- Forest green: #14532D
+- Deep green: #123B2A
+- Warm cream: #F7F5EC
+- White: #FFFFFF
+- Fresh lime: #D9F99D
+- Soft blue: #DCEBFF
+- Soft coral: #FCE7DF
+- Lavender: #E9DDF8
+- Primary text: #1F2937
+- Secondary text: #64748B
+- Border: #E5E7EB
+
+Use forest green for important actions and navigation emphasis. Use cream and white for calm surfaces. Use accent colors sparingly to distinguish information, warnings, and secondary highlights.
+
+Do not communicate status using color alone. Pair status colors with text labels or icons.
+
+## Typography
+
+Use a clean, highly readable typeface. A system font stack is acceptable. If using an external font, the application must still work if the font cannot load.
+
+Establish consistent styles for:
+
+- Page title
+- Section heading
+- Card title
+- Body text
+- Supporting text
+- Labels
+- Table text
+- Small metadata
+
+## Layout
+
+- Desktop-first but fully responsive.
+- Sidebar on desktop.
+- Collapsible or drawer-style navigation on mobile.
+- Consistent spacing and alignment.
+- Clean cards with restrained shadows and borders.
+- Clear visual hierarchy.
+- Proper hover, focus, active, disabled, loading, success, warning, and error states.
+- Avoid horizontal page overflow at narrow screen sizes.
+
+## Design quality
+
+The product should look intentionally designed rather than generated from a generic template.
+
+Prioritize clarity, visual consistency, ease of use, and a distinctive sustainability identity over unnecessary decorative effects.
+
+---
+
+# 5. REQUIRED PROJECT STRUCTURE
+
+Adapt this structure to the existing project without needlessly replacing it.
+
+```text
+reloop-campus/
+├── public/
+│   └── images/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── AppLayout.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   ├── Topbar.jsx
+│   │   │   └── PageContainer.jsx
+│   │   ├── common/
+│   │   │   ├── Button.jsx
+│   │   │   ├── StatusBadge.jsx
+│   │   │   ├── StatCard.jsx
+│   │   │   ├── EmptyState.jsx
+│   │   │   └── LoadingState.jsx
+│   │   └── dashboard/
+│   │       ├── ReadinessCard.jsx
+│   │       ├── UpcomingEvents.jsx
+│   │       ├── RecentActivity.jsx
+│   │       └── QuickActions.jsx
+│   ├── pages/
+│   │   ├── LandingPage.jsx
+│   │   ├── LoginPage.jsx
+│   │   ├── RegisterPage.jsx
+│   │   ├── DashboardPage.jsx
+│   │   ├── InventoryPage.jsx
+│   │   ├── ItemDetailsPage.jsx
+│   │   ├── EventsPage.jsx
+│   │   ├── EventCreatePage.jsx
+│   │   ├── ReadinessPage.jsx
+│   │   ├── ReservationsPage.jsx
+│   │   ├── ReusePassportPage.jsx
+│   │   ├── ReportsPage.jsx
+│   │   └── NotFoundPage.jsx
+│   ├── data/
+│   │   └── mockData.js
+│   ├── services/
+│   │   └── api.js
+│   ├── hooks/
+│   ├── utils/
+│   ├── styles/
+│   │   ├── variables.css
+│   │   ├── global.css
+│   │   └── components.css
+│   ├── App.jsx
+│   └── main.jsx
+├── .env.example
+├── package.json
+└── README.md
+```
+
+Do not create empty files solely to make the tree look complete. Implement required files and create placeholders only where the application genuinely needs them.
+
+Keep components focused, reusable, and easy to maintain.
+
+---
+
+# 6. REQUIRED ROUTES
+
+Set up React Router.
+
+Implement these routes:
+
+- `/` — Public landing page
+- `/login` — Login page UI
+- `/register` — Registration page UI
+- `/dashboard` — Main dashboard
+- `/inventory` — Inventory browsing
+- `/inventory/new` — Add item UI
+- `/inventory/:id` — Item details and Reuse Passport entry point
+- `/events` — Event list
+- `/events/new` — Event creation UI
+- `/events/:id/readiness` — Event readiness UI
+- `/reservations` — Reservations and request status
+- `/handover` — Handover and return management UI
+- `/reports` — Impact and opportunity reporting UI
+- A fallback route for unknown URLs
+
+During Phase 1, non-dashboard routes can have thoughtfully designed, functional page shells with a title, purpose, primary action, and appropriate empty or demo state.
+
+Do not create fake working backend actions. Where a feature is not implemented yet, label it as a demonstration or provide a clear disabled state rather than pretending it saved data.
+
+The dashboard and main navigation must work. Do not leave broken links.
+
+Authentication is a future phase. Login and registration pages may provide their intended UI, but must not claim that secure account creation or authentication is working until the backend is implemented.
+
+---
+
+# 7. APPLICATION SHELL
+
+Build a polished reusable layout.
+
+## Sidebar
+
+Include:
+
+- ReLoop Campus logo/brand
+- Dashboard
+- Inventory
+- Events
+- Reservations
+- Reuse Passport or item tracking
+- Reports
+- Settings or profile entry if useful
+
+Use consistent icons and labels. Clearly show the active route.
+
+On mobile, the sidebar must collapse into an accessible navigation drawer or equivalent layout.
+
+## Topbar
+
+Include:
+
+- Current page title or breadcrumb
+- Search entry point if implemented
+- Notifications entry point
+- User avatar/profile menu
+- Responsive mobile menu trigger
+
+Every visible control must either perform a meaningful action or be clearly identified as unavailable in this phase.
+
+## Content container
+
+Use consistent page widths, padding, responsive grids, and spacing.
+
+---
+
+# 8. INITIAL DASHBOARD REQUIREMENTS
+
+The dashboard is the most important implemented screen in this phase.
+
+Create a polished dashboard containing the following sections.
+
+## A. Welcome header
+
+Display a friendly heading such as:
+
+"Make every campus resource count."
+
+Supporting text:
+
+"Discover reusable materials, plan smarter events, and keep useful resources in circulation."
+
+Provide relevant quick actions such as:
+
+- Browse inventory
+- Plan an event
+- View reservations
+
+Only link to routes that exist.
+
+## B. Summary cards
+
+Display demonstration metrics for:
+
+- Registered reusable items
+- Currently usable items
+- Pending reservation requests
+- Verified completed reuses
+
+Use distinct icons and restrained visual treatments.
+
+Every card must have a clear label and a sensible definition.
+
+Mark the data as demonstration data while the application uses mock records. Do not claim these are actual college statistics.
+
+Do not count a reservation as a completed reuse.
+
+## C. Event Reuse Readiness feature card
+
+This is a signature innovation and must be visually prominent.
+
+Display a demonstration upcoming event with:
+
+- Event name
+- Event date
+- Required material units
+- Allocatable reusable units
+- Readiness percentage
+- Remaining shortages
+- A link to view event readiness
+
+Use a progress indicator that has an accessible text equivalent.
+
+Define the readiness calculation as:
+
+Readiness percentage = (required material units that can be fulfilled from eligible reusable inventory / total required material units) × 100.
+
+The denominator is the total required units across the event's material requirements.
+
+The numerator must not exceed the denominator. Do not count unavailable, reserved, overlapping, or inspection-pending stock as ready-to-use inventory.
+
+Use integer rounding for display, but calculate using the underlying quantities.
+
+If the event has no requirements, do not divide by zero. Display an appropriate "Requirements not added" state instead of showing a misleading 0% or 100%.
+
+For this phase, use a pure utility function with unit tests. Do not scatter the formula across UI components.
+
+## D. Upcoming events
+
+Show a small list of upcoming demo events with:
+
+- Event name
+- Date
+- Organizer or department
+- Status
+- Readiness where meaningful
+
+Use semantic status labels and consistent badges.
+
+## E. Recent activity
+
+Display a small timeline or list of example activity records such as:
+
+- A reusable item was registered.
+- A reservation request was submitted.
+- An item was returned for inspection.
+- A repair was completed.
+
+Clearly mark these as sample activity. Never present mock activity as verified real-world activity.
+
+## F. Reuse impact summary
+
+Show available demonstration counts for:
+
+- Verified completed reuses
+- Repaired items
+- Unfulfilled material requests
+
+Do not invent CO₂ savings, water savings, or financial savings.
+
+If estimated environmental impact is shown in a future version, it must be based on documented assumptions and clearly labeled as an estimate.
+
+## G. Empty and error states
+
+Provide sensible states when:
+
+- No upcoming events exist.
+- No activity is available.
+- Dashboard data cannot be loaded.
+- A metric is unavailable.
+- The user has not created an event yet.
+
+Avoid blank cards, broken layouts, undefined values, NaN, or misleading zero values.
+
+---
+
+# 9. MOCK DATA AND FUTURE API COMPATIBILITY
+
+Create a centralized mock-data file.
+
+Use realistic campus materials, for example:
+
+- Display boards
+- Reusable banners
+- Signboards
+- Exhibition stands
+- Decoration props
+- Tables or event accessories
+
+Include attributes such as:
+
+- ID
+- Name
+- Category
+- Quantity
+- Condition
+- Department
+- Storage location
+- Availability status
+- Image or placeholder
+- Last updated
+
+Include a small, coherent demonstration dataset for inventory, upcoming events, event requirements, reservation statuses, and activity.
+
+Ensure that all dashboard numbers are consistent with the sample records.
+
+Keep data and UI separate.
+
+Create a service abstraction for future API calls. It may use mock data in Phase 1, but its design must allow a later switch to Spring Boot REST APIs without rewriting every page.
+
+Read the backend base URL from an environment variable such as:
+
+`VITE_API_BASE_URL`
+
+Include an `.env.example` containing a safe placeholder. Do not include credentials, passwords, tokens, or real secrets.
+
+Do not expose secrets in Vite environment variables.
+
+---
+
+# 10. REQUIRED UI BEHAVIOR
+
+Implement and test the following:
+
+1. Clicking sidebar links changes routes correctly.
+2. The active navigation item updates with the current route.
+3. Unknown routes display a not-found page.
+4. Mobile navigation opens and closes correctly.
+5. Dashboard cards render from the centralized demo dataset.
+6. Readiness calculation is correct for the sample event.
+7. Search inputs work on any page where search is presented as functional.
+8. Empty states appear when a list has no records.
+9. Buttons do not falsely claim to save information when no backend exists.
+10. Navigation and interactive controls are keyboard accessible.
+11. Form fields have labels and clear validation feedback.
+12. Loading and error components are reusable.
+13. Layouts work at desktop, tablet, and mobile widths.
+14. No important page content is clipped by a fixed sidebar or topbar.
+15. No console errors, broken imports, missing React keys, or avoidable runtime warnings remain.
+
+If a screen is only a Phase 1 shell, it must still look intentional and clearly explain its purpose.
+
+---
+
+# 11. PHASE 1 TEST PLAN
+
+Create a test document in the repository, for example:
+
+`docs/phase-1-test-plan.md`
+
+Include the following test cases, their preconditions, steps, expected results, and execution status.
+
+### Project setup
+
+SETUP-01: Dependencies install successfully.
+
+SETUP-02: Vite development server starts.
+
+SETUP-03: Application loads at the local development URL.
+
+SETUP-04: A code edit triggers a successful development reload.
+
+SETUP-05: Production build completes successfully.
+
+### Routing
+
+ROUTE-01: Landing page opens at `/`.
+
+ROUTE-02: Dashboard opens at `/dashboard`.
+
+ROUTE-03: Every required navigation link points to a valid route.
+
+ROUTE-04: Active sidebar state matches the current route.
+
+ROUTE-05: Unknown routes show a not-found page.
+
+ROUTE-06: Browser Back and Forward navigation behave correctly.
+
+### Dashboard
+
+DASH-01: Summary cards display defined labels and valid values.
+
+DASH-02: Mock data is centrally managed.
+
+DASH-03: Upcoming event list renders correctly.
+
+DASH-04: Recent activity renders correctly.
+
+DASH-05: Empty event and activity lists show appropriate empty states.
+
+DASH-06: API/data errors do not break the entire page.
+
+DASH-07: Demo metrics are not represented as verified real-world statistics.
+
+### Readiness calculation
+
+READY-01: If 6 of 10 required units can be fulfilled, readiness is 60%.
+
+READY-02: If all required units can be fulfilled, readiness is 100%.
+
+READY-03: If no required units can be fulfilled and requirements exist, readiness is 0%.
+
+READY-04: Inspection-pending stock does not count as allocatable stock.
+
+READY-05: Reserved or date-conflicting stock does not count as available.
+
+READY-06: Allocatable units never exceed required units.
+
+READY-07: Empty requirements do not cause division by zero.
+
+READY-08: Display rounding does not change the underlying calculation.
+
+READY-09: Missing or invalid quantities are handled safely.
+
+### Responsive layout
+
+RESP-01: Desktop sidebar and content do not overlap.
+
+RESP-02: Tablet layout remains readable.
+
+RESP-03: Mobile navigation is usable.
+
+RESP-04: No unwanted horizontal overflow appears on core pages.
+
+RESP-05: Long names and descriptions do not break cards.
+
+### Accessibility
+
+A11Y-01: Interactive controls can be reached by keyboard.
+
+A11Y-02: Focus states are visible.
+
+A11Y-03: Form fields have accessible labels.
+
+A11Y-04: Status is communicated by text, not color alone.
+
+A11Y-05: Progress indicators expose their value accessibly.
+
+A11Y-06: Buttons and links have meaningful names.
+
+### Code quality
+
+QUAL-01: No broken imports or missing modules.
+
+QUAL-02: No fatal console errors on implemented routes.
+
+QUAL-03: Lists use stable React keys.
+
+QUAL-04: Shared components use consistent styles.
+
+QUAL-05: Build and test commands are documented.
+
+QUAL-06: No credentials or secrets are committed.
+
+For every test, record whether it is implemented, passed, failed, or not yet executed. Never mark a test passed unless you actually ran it.
+
+---
+
+# 12. TESTING IMPLEMENTATION REQUIREMENTS
+
+Use the existing testing setup if present.
+
+If the project has no frontend testing framework, install a compatible minimal setup with Vitest, React Testing Library, and jsdom, if practical.
+
+Create unit tests for the readiness calculation, including:
+
+- 6 / 10 = 60%
+- 10 / 10 = 100%
+- 0 / 10 = 0%
+- Empty requirements
+- Pending inspection items
+- Reserved inventory
+- Quantities larger than the remaining requirements
+- Invalid or missing quantities
+
+Create component tests for:
+
+- Dashboard rendering
+- Sidebar navigation
+- Not-found route
+- Empty states
+- Readiness card
+- Mobile navigation interaction where feasible
+
+Do not spend time building an elaborate test framework before the application works. Prioritize meaningful tests that protect the core behavior.
+
+---
+
+# 13. SECURITY AND DATA INTEGRITY BOUNDARIES
+
+Even though backend authentication comes later, design the frontend so it does not create false security assumptions.
+
+- Do not hardcode credentials.
+- Do not store sensitive user information in mock data.
+- Do not treat hidden buttons as real authorization.
+- Do not implement fake authentication and claim it is secure.
+- Do not claim that a frontend reservation check prevents concurrent bookings.
+- Leave server-side role enforcement, password security, database constraints, and transactional reservation protection for the backend phase.
+- Do not store actual secrets in `.env` files committed to GitHub.
+- Add a `.gitignore` for dependencies, build output, local environment files and other generated artifacts.
+
+---
+
+# 14. REQUIRED DELIVERABLES
+
+At the end of Phase 1, provide:
+
+1. Working React + Vite application.
+2. Responsive application shell.
+3. Functional dashboard with centralized mock data.
+4. Landing, login, registration, inventory, events, readiness, reservations, handover, and reports page shells.
+5. Working routing and navigation.
+6. Consistent design system.
+7. Readiness calculation utility and unit tests.
+8. Frontend test plan.
+9. Updated README with installation and execution instructions.
+10. `.env.example` with safe placeholders.
+11. Screenshot evidence or a clear list of screens that were actually verified.
+12. A concise implementation report describing completed work, files created or modified, test results, build results, and known limitations.
+
+Include the exact commands needed to install, run, test, and build the project.
+
+---
+
+# 15. DEFINITION OF DONE
+
+Phase 1 is complete only when:
+
+- The application runs locally.
+- The dashboard is implemented rather than merely described.
+- The main navigation works.
+- All required routes have valid page content or a clear placeholder state.
+- The visual system is consistent and responsive.
+- The readiness calculation is isolated and tested.
+- The mock dataset is consistent with displayed metrics.
+- Important empty and error states exist.
+- Tests have actually been run and their results reported.
+- The production build succeeds.
+- The README explains how to run the application.
+
+Do not claim completion if any essential requirement remains unimplemented.
+
+---
+
+# 16. FINAL INSTRUCTIONS
+
+Build a strong foundation for the complete six-phase ReLoop Campus project.
+
+Think like a hackathon product team: judges should quickly understand the problem, see what makes the product different, and recognize that the implementation is technically credible.
+
+However, do not sacrifice maintainability or correctness for visual effects.
+
+Preserve the original core features. The three new innovations must remain central to the product design.
+
+Start by inspecting the workspace. Then implement Phase 1, run the application, execute the tests, fix the issues, and report the actual results.
+
+Do not start implementing the full backend or database in this phase. Prepare the architecture so that the next phase can add the database without requiring a frontend rewrite.
+
+
+
+
+# PHASE 2 MASTER PROMPT — RELOOP CAMPUS
+## Database Architecture, MySQL Schema, ER Diagram, SQL Scripts and Setup Documentation
+
+Act as a senior database architect, MySQL engineer, data modeler, backend architect, and software QA engineer.
+
+Your task is to implement Phase 2 of ReLoop Campus: design, create, validate, and document the complete database foundation for the application.
+
+Do not provide only theoretical explanations or a suggested schema. Inspect the existing project, create the required database artifacts and documentation in the actual workspace, validate the SQL where possible, and report the real results.
+
+Preserve Phase 1 work. Do not rewrite the React frontend or begin implementing the entire Spring Boot backend in this phase.
+
+---
+
+# 1. PROJECT CONTEXT
+
+## Project name
+ReLoop Campus
+
+## Tagline
+"Before buying new, discover what your campus can reuse."
+
+## Problem
+College events repeatedly require materials such as display boards, banners, stands, signboards, decorations, and props. Useful materials can remain undiscovered or be discarded because departments lack a shared inventory, reliable reservation process, condition history, and reuse tracking.
+
+## Solution
+ReLoop Campus is a verified campus reuse platform for discovering, reserving, handing over, returning, repairing, and tracking event materials.
+
+The database must support these three distinguishing innovations:
+
+1. **Event Reuse Readiness Score:** Determine the proportion of required event material units that can be fulfilled by eligible, date-compatible inventory.
+2. **Reuse-First Decision Assistant:** Recommend existing stock, inspection, repair, alternatives, or purchasing only the remaining shortage, with understandable reasons.
+3. **Reuse Chain and Lost-Opportunity Tracker:** Record item history and identify unfulfilled requests, recurring shortages, repair delays, and reported disposal.
+
+The database must also support the original core features: inventory management, department ownership, reservation approvals, double-booking prevention, QR identification, verified handovers and returns, condition inspections, repair tracking, role-based access, notifications, and honest impact reporting.
+
+---
+
+# 2. FIXED TECHNOLOGY STACK
+
+Use:
+
+- MySQL 8.0 or a compatible MySQL 8.x release
+- SQL DDL and DML scripts
+- InnoDB storage engine
+- `utf8mb4` character set
+- Foreign keys
+- Appropriate indexes
+- Transactions where multiple related records must remain consistent
+- Spring Data JPA/Hibernate compatibility for the future Java Spring Boot backend
+- Git-compatible documentation and SQL files
+
+Do not change the frontend framework. Phase 1 uses React + Vite.
+
+Do not introduce MongoDB, PostgreSQL, Firebase, or another database.
+
+Use MySQL-compatible syntax, not PostgreSQL-specific syntax.
+
+Prefer explicit primary keys, foreign keys, named constraints, sensible column types, and clear naming conventions.
+
+Use `DECIMAL` for monetary values where needed. Use integer types for physical item quantities. Use UTC timestamps for stored event times where the application can consistently manage UTC conversions, and document the chosen time-zone convention.
+
+---
+
+# 3. FIRST INSPECT PHASE 1
+
+Before designing the schema:
+
+1. Inspect the current repository and Phase 1 source files.
+2. Review the mock data, dashboard metrics, readiness calculation, page structure, and any existing domain models.
+3. Identify the actual item fields, event fields, statuses, and metrics already used.
+4. Align database names and concepts with the existing application.
+5. Document any necessary domain-model decisions.
+
+Do not assume a file exists without checking.
+
+If Phase 1 artifacts are unavailable, use the requirements in this prompt as the source of truth and document that assumption.
+
+Do not introduce unnecessary tables just to make the schema appear complex. Every table must serve a documented use case.
+
+---
+
+# 4. REQUIRED DATABASE DELIVERABLES
+
+Create a dedicated database directory, adapting to the existing repository structure:
+
+```text
+database/
+├── README.md
+├── design/
+│   ├── requirements.md
+│   ├── data-dictionary.md
+│   ├── er-diagram.md
+│   └── er-diagram.mmd
+├── scripts/
+│   ├── 01_create_database.sql
+│   ├── 02_create_tables.sql
+│   ├── 03_create_indexes.sql
+│   ├── 04_seed_reference_data.sql
+│   ├── 05_seed_demo_data.sql
+│   ├── 06_validation_queries.sql
+│   └── 07_reporting_queries.sql
+└── tests/
+    ├── database-test-plan.md
+    └── expected-results.md
+```
+
+You may add migration scripts or other useful files, but keep the structure understandable.
+
+The deliverables must include:
+
+- Database schema
+- Entity Relationship Diagram (ERD)
+- SQL scripts
+- Data dictionary
+- Database setup instructions
+- Sample data
+- Validation queries
+- Reporting queries
+- Database test plan
+- Actual validation and test results, where execution is possible
+
+---
+
+# 5. DATABASE DESIGN PRINCIPLES
+
+Apply these principles throughout the schema.
+
+## A. Normalization
+
+Use a sensible normalized relational model, generally targeting third normal form where appropriate.
+
+Avoid:
+
+- Storing multiple material IDs in one text field.
+- Storing multiple item categories in one column.
+- Repeating department names in every inventory row when a foreign key is appropriate.
+- Storing event requirements as a comma-separated string.
+- Duplicating computed readiness values as if they were authoritative when they can be derived from current inventory and reservations.
+- Storing an entire item history as JSON when individual events need to be queried and audited.
+
+Use junction tables for many-to-many relationships.
+
+Do not denormalize unless there is a clear, documented reason.
+
+## B. Referential integrity
+
+Use foreign keys for relationships between entities.
+
+Select `ON DELETE` behavior carefully. Historical records, completed handovers, audit trails, and reuse history must not disappear simply because a user, event, or item is no longer active.
+
+Prefer archival or status changes over destructive deletion for records with meaningful history.
+
+Use restrictive deletion behavior for important historical references unless there is a justified alternative.
+
+## C. Data validation
+
+Use suitable:
+
+- `NOT NULL`
+- `UNIQUE`
+- `CHECK` constraints where supported
+- Foreign keys
+- Status constraints or lookup tables
+- Quantity boundaries
+- Timestamp consistency rules
+
+Validate positive quantities, valid date ranges, and meaningful status transitions in the future application service layer as well as in the database wherever possible.
+
+Do not rely on a frontend validation rule as the only protection.
+
+## D. Naming conventions
+
+Use consistent `snake_case` names for tables and columns.
+
+Choose one clear convention for IDs, such as `id` for primary keys and descriptive names such as `item_id` for foreign keys.
+
+Document status values and naming conventions.
+
+## E. Auditability
+
+Track important state changes and business events. Keep the design suitable for understanding who did what and when, without unnecessarily storing sensitive information.
+
+---
+
+# 6. REQUIRED CORE TABLES
+
+Design the tables below and adjust the model if inspection reveals a better normalized structure.
+
+For every table, document its purpose, columns, primary key, foreign keys, unique constraints, checks, and indexes.
+
+## A. Identity and organization
+
+### 1. `users`
+
+Support future authentication and user ownership.
+
+Include suitable fields such as:
+
+- `id`
+- `full_name`
+- `email`
+- `password_hash` for the future backend only
+- `account_status`
+- `created_at`
+- `updated_at`
+
+Requirements:
+
+- Email must be unique under a clearly documented normalization policy.
+- Never store plaintext passwords.
+- Seed only fictional demo users.
+- Never put real credentials or passwords into SQL seed files.
+- Define a clear approach for deactivating accounts without deleting meaningful history.
+
+### 2. `roles`
+
+Represent application roles, such as:
+
+- `STUDENT`
+- `ORGANIZER`
+- `ITEM_COORDINATOR`
+- `ADMIN`
+
+You may simplify or extend the role list if justified.
+
+### 3. `user_roles`
+
+Support users having one or more roles, using a junction table and appropriate uniqueness constraints.
+
+### 4. `departments`
+
+Store campus departments, clubs, or organizational units.
+
+Include a stable ID, name, optional code, active status, and timestamps. Define uniqueness rules for names and codes.
+
+If club ownership and departments require materially different behavior, document whether one organization table with a type is sufficient.
+
+---
+
+## B. Inventory
+
+### 5. `item_categories`
+
+Examples include display boards, banners, stands, signboards, decoration props, and event accessories.
+
+### 6. `inventory_items`
+
+Represent an inventory item or inventory lot.
+
+Include appropriate fields such as:
+
+- ID
+- Item name
+- Description
+- Category ID
+- Owner department ID
+- Storage location
+- Quantity acquired or recorded
+- Current usable quantity or another carefully defined stock representation
+- Condition/status
+- Availability or lifecycle status
+- Image URL or image reference
+- Created and updated timestamps
+- Created-by and updated-by references when appropriate
+
+Define the inventory model carefully.
+
+A category is not an individual item, and an item is not the same as a reservation.
+
+For Phase 2, use a practical inventory-lot model if individual physical serial numbers are not necessary for every material. Document its limitations.
+
+Ensure that the schema can prevent available quantities from becoming negative and can support multiple reservations against a shared quantity pool.
+
+### 7. `item_identifiers` or an equivalent QR identifier design
+
+Support QR-based item identification.
+
+Requirements:
+
+- A stable unique QR identifier or public token.
+- No passwords, personal data, or authorization secrets encoded in the QR code.
+- A QR scan must eventually resolve through a controlled backend endpoint.
+- QR identifiers must be unique and safely revocable or replaceable.
+- Document whether each QR identifies an inventory lot or an individual physical object.
+
+If the selected inventory model needs individual object records to support unique physical-item histories, create a separate `inventory_units` table and explain the relationship. Do not create this table without a clear model and reason.
+
+### 8. `item_images` if useful
+
+Support multiple images per inventory item without storing binary image files directly in ordinary SQL rows.
+
+Document that image files should be stored in an appropriate file or object-storage service in a later phase, while the database stores references and metadata.
+
+---
+
+## C. Events and material requirements
+
+### 9. `events`
+
+Include:
+
+- Event name
+- Description
+- Organizer
+- Department or club
+- Start and end timestamps
+- Venue
+- Lifecycle status
+- Created and updated timestamps
+
+Validate event dates and preserve meaningful history.
+
+### 10. `event_material_requirements`
+
+Represent each material category or item type required by an event.
+
+Include:
+
+- Event ID
+- Category or required item reference
+- Requested quantity
+- Optional specification
+- Notes
+
+Support multiple material requirements for one event.
+
+Use appropriate constraints to prevent duplicate requirements where the model calls for a single row per event/category/specification combination.
+
+Document how the design handles two similar materials with different specifications.
+
+---
+
+## D. Reservations and allocation
+
+### 11. `reservations`
+
+Represent a reservation request.
+
+Include:
+
+- Requesting user
+- Event
+- Status
+- Requested and reviewed timestamps
+- Reviewer, where applicable
+- Decision or rejection reason
+- Created and updated timestamps
+
+Suggested statuses:
+
+- `PENDING`
+- `APPROVED`
+- `REJECTED`
+- `CANCELLED`
+- `FULFILLED`
+
+You may include other justified statuses, but document the state transitions.
+
+### 12. `reservation_items`
+
+Represent the requested inventory item or lot, quantity, and allocation details.
+
+Requirements:
+
+- A reservation may contain multiple inventory lines.
+- Quantities must be positive.
+- The data model must support partial fulfilment and remaining shortages where appropriate.
+- An item line must refer to an actual inventory record.
+- The event date and requested use period must be available to the allocation logic.
+
+If you choose a different normalized model, explain how event material requirements map to allocated inventory.
+
+### 13. Allocation conflict handling
+
+Design the schema and future transaction workflow to prevent overbooking.
+
+Do not claim that a simple foreign key or a unique constraint alone prevents overlapping reservations against a shared quantity pool.
+
+Document a safe Spring Boot/MySQL transaction strategy, such as:
+
+1. Start a database transaction.
+2. Lock the relevant inventory or stock-balance row using an appropriate locking read.
+3. Recalculate eligible stock and overlapping approved allocations.
+4. Reject or reduce the allocation if the requested quantity is unavailable.
+5. Persist the reservation and its allocation lines.
+6. Commit the transaction.
+
+Explain when `SELECT ... FOR UPDATE` is appropriate and why the transaction isolation and lock scope matter.
+
+For time-overlapping reservations, define the overlap rule clearly. For example, two intervals overlap when each starts before the other ends. Document whether event end times are exclusive.
+
+The later backend must enforce the allocation logic. Do not implement a fake frontend-only guarantee.
+
+---
+
+## E. Handover, returns, condition and repair
+
+### 14. `handover_records`
+
+Track the actual transfer of materials to the requesting organizer.
+
+Include appropriate links to the reservation or allocation, verification details, handover time, receiving user, releasing user, and status.
+
+Do not equate reservation approval with actual handover.
+
+### 15. `return_records`
+
+Track return activity, returned quantities, return timestamps, and verification.
+
+Support partial returns if the inventory model allows them.
+
+### 16. `condition_inspections`
+
+Record condition checks before or after use.
+
+Include inspector, inspection timestamp, condition result, notes, and links to the relevant item or inventory unit and handover/return where applicable.
+
+Inspection-pending stock must not be counted as ready-to-use stock.
+
+### 17. `repair_records`
+
+Track reported damage, repair status, assigned person or department, repair notes, estimated or actual cost when known, opened time, completion time, and the relevant item.
+
+Possible statuses include `REPORTED`, `IN_PROGRESS`, `COMPLETED`, and `CANCELLED`.
+
+Do not automatically mark an item usable merely because a repair record says completed. A successful post-repair inspection or equivalent verification must be required by the business rules.
+
+### 18. `item_history` or `item_events`
+
+Implement an auditable chronological record of significant item events, such as:
+
+- Item registered
+- Reservation approved
+- Item handed over
+- Item returned
+- Inspection completed
+- Damage reported
+- Repair completed
+- Item retired
+- Item reported discarded
+
+Design this to support the Reuse Passport.
+
+Avoid duplicate, conflicting sources of truth. If some timeline entries are derived from existing business records, document whether the timeline is assembled from those records or maintained as an append-only event log.
+
+Include timestamps, event type, relevant item reference, and actor where appropriate.
+
+Do not invent events that never happened.
+
+---
+
+## F. Notifications and audit trail
+
+### 19. `notifications`
+
+Support future user notifications for:
+
+- Reservation decisions
+- Upcoming handover or return
+- Overdue returns
+- Inspection requests
+- Repair updates
+
+Include recipient, type, message or safe payload, created time, read time, and related record references where appropriate.
+
+Do not use notification text as the authoritative business record.
+
+### 20. `audit_logs` if justified
+
+Record important administrative and state-changing actions.
+
+Include actor, action, entity type, entity ID where appropriate, timestamp, and carefully limited metadata.
+
+Avoid storing passwords, authentication tokens, or unnecessary sensitive data in logs.
+
+Document retention and deletion considerations.
+
+---
+
+## G. Lost opportunities and impact reporting
+
+### 21. `unfulfilled_requests` or an equivalent request-outcome model
+
+Track unmet material demand.
+
+The design should distinguish:
+
+- Requested quantity
+- Quantity fulfilled
+- Quantity not fulfilled
+- Reason for shortage
+- Relevant event and material
+- Recorded timestamp
+- Whether the outcome was confirmed
+
+Prevent double-counting the same shortage through multiple derived reports.
+
+### 22. `disposal_records` or an equivalent lifecycle event
+
+Track reported disposal or retirement where relevant.
+
+Distinguish confirmed records from unverified reports. Include quantity, reason, time, recorder, and appropriate inventory references.
+
+Do not treat missing returns as confirmed disposal.
+
+### 23. Impact metric design
+
+Define how the database supports:
+
+- Verified completed reuses
+- Repeated use of the same inventory
+- Repaired items
+- Unfulfilled material requests
+- Reported disposal
+- Self-reported purchases avoided
+- Estimated environmental impacts, if introduced later
+
+Do not invent environmental conversion factors.
+
+Do not count a reservation as a completed reuse.
+
+Do not count an approved handover as a completed reuse until the defined completion condition has been met.
+
+If financial savings are recorded, distinguish user-reported purchase avoidance from verified spending. Keep estimated savings separate from verified amounts.
+
+For any future CO₂ or waste estimate, document the external methodology and its assumptions. Do not insert arbitrary conversion factors in this phase.
+
+---
+
+# 7. EVENT REUSE READINESS DATA MODEL
+
+The schema must support calculating readiness correctly.
+
+Use the formula:
+
+Readiness percentage = (allocatable required units / total required units) × 100.
+
+For an event with multiple requirements:
+
+- The denominator is the sum of all required material units.
+- The numerator is the sum of eligible units allocated against those requirements, capped at each requirement's requested quantity.
+- No allocation may satisfy more than the remaining requirement for that material.
+- Do not count stock that is unavailable, reserved for an overlapping time interval, awaiting inspection, damaged, retired, or otherwise ineligible.
+- Do not count the same stock twice across events.
+- If there are no material requirements, represent the result as "requirements not added" rather than dividing by zero.
+
+Create documented SQL views or reporting queries for readiness only if the query can accurately represent the agreed inventory and allocation model.
+
+If readiness requires transaction-sensitive or complex service logic, state that explicitly and provide the appropriate query inputs and service calculation contract.
+
+Do not store a readiness percentage as permanent truth unless you also define how and when it is recalculated and invalidated.
+
+---
+
+# 8. DATA DICTIONARY
+
+Create `database/design/data-dictionary.md`.
+
+For every table, include:
+
+- Table name
+- Business purpose
+- Column name
+- SQL data type
+- Nullable or not nullable
+- Default value, if any
+- Primary key or foreign key role
+- Unique/check constraints
+- Meaning of the column
+- Example valid value
+- Any security or retention consideration
+
+Document all enumerations and allowed status transitions.
+
+Explicitly define the meaning of every quantity column. Do not use an ambiguous column called simply `quantity` in multiple contexts without explaining its semantics.
+
+---
+
+# 9. ENTITY RELATIONSHIP DIAGRAM
+
+Create both:
+
+- `database/design/er-diagram.mmd`
+- `database/design/er-diagram.md`
+
+Use Mermaid ER diagram syntax.
+
+Include all important entities, primary keys, foreign keys, and relationship cardinalities.
+
+Show relationships such as:
+
+- User to roles
+- Department to inventory
+- Category to inventory
+- Event to material requirements
+- Event to reservations
+- Reservation to reservation items
+- Inventory to reservation items
+- Reservation/allocation to handovers and returns
+- Inventory to inspections and repairs
+- Inventory to item history
+- User to notifications
+- Event/material to unfulfilled requests
+- Inventory to disposal/lifecycle records
+
+Ensure the diagram matches the actual SQL scripts. Do not draw relationships that do not exist in the schema.
+
+Keep the ERD readable. If necessary, create separate logical diagrams for identity/organization, inventory/reservations, and lifecycle/impact.
+
+---
+
+# 10. SQL SCRIPTS
+
+Implement the following scripts.
+
+## `01_create_database.sql`
+
+- Create the `reloop_campus` database if appropriate.
+- Use `utf8mb4`.
+- Document the expected MySQL version.
+- Avoid embedding credentials.
+- Keep the script safe to rerun where practical.
+
+## `02_create_tables.sql`
+
+- Create tables in dependency order.
+- Define primary keys and foreign keys.
+- Use InnoDB.
+- Add appropriate nullability and defaults.
+- Include essential checks and unique constraints.
+- Avoid circular dependencies where possible.
+
+## `03_create_indexes.sql`
+
+Create indexes based on real query patterns, including:
+
+- Inventory by category and status
+- Inventory by department
+- Event start/end dates and status
+- Reservations by event and status
+- Reservations by requester and creation date
+- Allocations by inventory and reservation
+- Inspection records by item and time
+- Repair status and item
+- Item history by item and time
+- Notifications by recipient and read status
+- Unfulfilled requests by event and material
+
+Avoid redundant indexes. Account for indexes already created by primary keys, unique constraints, and foreign keys.
+
+## `04_seed_reference_data.sql`
+
+Insert reference records such as roles, item categories, and fictional departments.
+
+Make seed data repeatable where possible without silently overwriting user data.
+
+## `05_seed_demo_data.sql`
+
+Create a small coherent fictional dataset:
+
+- A few departments
+- Several inventory categories
+- Multiple inventory records
+- Fictional demo users
+- A few events
+- Material requirements
+- Reservation examples with different statuses
+- Handover and return examples
+- Inspection and repair examples
+- A few timeline events
+- Example unfulfilled demand records
+
+Ensure all foreign keys and business rules remain valid.
+
+Do not use real people's private data or real credentials.
+
+Keep seed data small enough to understand manually.
+
+## `06_validation_queries.sql`
+
+Include queries to check:
+
+- Orphaned relationships where applicable
+- Invalid quantities
+- Reservations referencing inactive or retired inventory
+- Invalid date ranges
+- Inconsistent handover/return quantities
+- Inspection-pending items incorrectly treated as usable
+- Duplicate or conflicting identifiers
+- Allocation totals exceeding eligible inventory
+- Completed reuse counts that do not meet the documented completion rule
+
+Some checks may be impossible to enforce entirely in SQL without transactions or service logic. Document those limitations rather than pretending the query is a complete guarantee.
+
+## `07_reporting_queries.sql`
+
+Include useful reporting queries for:
+
+- Inventory grouped by category and availability
+- Usable stock by department
+- Upcoming events
+- Reservation status summary
+- Event readiness inputs or calculation
+- Pending inspections
+- Open repairs
+- Completed reuses
+- Unfulfilled requests
+- Reported disposal
+- Repeatedly reused inventory
+- Reuse Passport timeline for one item
+
+Clearly label each query and explain its purpose.
+
+Avoid double-counting when joining multiple one-to-many relationships. Use pre-aggregation, appropriate joins, or separate queries as necessary.
+
+---
+
+# 11. BUSINESS RULES TO DOCUMENT
+
+Create a section in `database/design/requirements.md` explaining these rules.
+
+1. Inventory quantities cannot become negative.
+2. Reservation quantities must be positive.
+3. Allocations cannot exceed eligible available stock.
+4. Overlapping approved reservations must not allocate the same stock twice.
+5. Pending requests do not consume stock unless the business policy explicitly reserves it; document the chosen rule.
+6. Rejected and cancelled reservations must not consume active stock.
+7. Inspection-pending or damaged stock cannot be counted as ready-to-use.
+8. A completed repair requires the appropriate verification before the stock becomes usable.
+9. Handover must be recorded separately from reservation approval.
+10. Return quantities cannot exceed quantities actually handed over, accounting for previous partial returns.
+11. Retired or disposed inventory cannot be allocated for future events.
+12. Item history must preserve meaningful historical events.
+13. A QR identifier must not expose confidential information.
+14. User roles are assigned through the role model.
+15. Frontend permissions are not a replacement for backend authorization.
+16. Readiness is derived from eligible stock and the event's requirements.
+17. Completed reuse metrics must be based on the documented completion event.
+18. Unfulfilled requests and disposal records must not be double-counted.
+19. Estimated environmental impact must be distinguished from measured or verified outcomes.
+20. Deleting or deactivating an account must not erase required historical accountability.
+
+For each rule, state whether it is enforced by:
+
+- Database constraint
+- Transactional SQL workflow
+- Future Spring Boot service logic
+- Reporting/query logic
+- A combination of these
+
+---
+
+# 12. DATABASE TEST PLAN
+
+Create `database/tests/database-test-plan.md`.
+
+Include test IDs, prerequisites, test steps, expected results, execution status, and actual results.
+
+At minimum, cover these scenarios:
+
+### Schema and constraints
+
+DB-01: Database can be created.
+
+DB-02: Tables are created in dependency order.
+
+DB-03: Primary keys prevent duplicate IDs.
+
+DB-04: Unique email policy works.
+
+DB-05: Foreign keys reject invalid references.
+
+DB-06: Negative or zero quantities are rejected where prohibited.
+
+DB-07: Invalid date ranges are rejected by the applicable enforcement layer.
+
+DB-08: Seed scripts execute successfully.
+
+DB-09: Seed scripts can be rerun safely according to their documented behavior.
+
+### Inventory and availability
+
+DB-10: Inventory is filtered by category.
+
+DB-11: Inventory is filtered by department and status.
+
+DB-12: Retired inventory is excluded from eligible stock.
+
+DB-13: Inspection-pending inventory is excluded from ready-to-use stock.
+
+DB-14: Damaged inventory is excluded from ready-to-use stock.
+
+### Reservations and concurrency
+
+DB-15: A valid reservation can be represented.
+
+DB-16: A rejected reservation does not consume active stock.
+
+DB-17: A cancelled reservation does not consume active stock.
+
+DB-18: Approved overlapping reservations cannot overallocate a shared inventory quantity pool.
+
+DB-19: A transaction failure does not leave a partially written reservation.
+
+DB-20: Partial fulfilment and remaining shortages can be represented.
+
+DB-21: Concurrent allocation attempts are handled safely by the designed transaction workflow.
+
+### Handover, returns, and repairs
+
+DB-22: Handover is distinguishable from reservation approval.
+
+DB-23: A return cannot exceed the quantity handed over.
+
+DB-24: Partial returns are represented consistently if supported.
+
+DB-25: Inspection results are preserved.
+
+DB-26: Repair completion does not automatically bypass required verification.
+
+DB-27: Historical item events remain queryable after lifecycle changes.
+
+### Readiness and impact
+
+DB-28: A requirement for 10 units with 6 eligible allocatable units produces 60% readiness.
+
+DB-29: Pending inspection stock is excluded from readiness.
+
+DB-30: Overlapping reservations are excluded from eligible stock.
+
+DB-31: Readiness does not exceed 100%.
+
+DB-32: Empty requirements do not cause division by zero.
+
+DB-33: Reservation approval is not counted as completed reuse.
+
+DB-34: Completed reuse follows the documented completion rule.
+
+DB-35: Reported disposal is not inferred merely from a missing return.
+
+DB-36: Reporting queries avoid duplicate counts caused by one-to-many joins.
+
+For each test, distinguish between implemented, passed, failed, and not executed. Do not fabricate test execution results.
+
+---
+
+# 13. DATABASE SETUP DOCUMENTATION
+
+Create `database/README.md` with beginner-friendly instructions.
+
+Include:
+
+1. Supported MySQL version.
+2. How to install MySQL if needed.
+3. How to open MySQL Workbench or a terminal.
+4. How to create the database.
+5. The exact order in which to execute SQL scripts.
+6. How to confirm tables were created.
+7. How to load the demo data.
+8. How to run validation queries.
+9. How to run reporting queries.
+10. Expected outputs from important queries.
+11. Common errors and their solutions.
+12. How to reset a local development database safely.
+13. Why destructive reset scripts must not be run against real data.
+14. The database connection settings that the later Spring Boot backend will require.
+15. Safe handling of local credentials and environment variables.
+
+Provide command-line examples such as:
+
+```bash
+mysql --version
+```
+
+and, where suitable:
+
+```bash
+mysql -u YOUR_LOCAL_USER -p < database/scripts/01_create_database.sql
+```
+
+Explain that `YOUR_LOCAL_USER` is a placeholder and must be replaced with the local MySQL account name.
+
+If the database name is created in the first script, explain how later scripts select or use it.
+
+Do not put real passwords in commands, documentation, or repository files.
+
+Document the expected result of each setup step.
+
+---
+
+# 14. SPRING BOOT COMPATIBILITY
+
+The database must be practical for the upcoming Java Spring Boot backend.
+
+Document:
+
+- Entity-to-table mapping expectations.
+- Primary-key strategy.
+- Foreign-key mapping expectations.
+- Enum/status mapping recommendations.
+- Timestamp handling.
+- Decimal and integer mapping.
+- Relationships that should not cascade-delete historical records.
+- Where transactional services will be required.
+- How readiness should be calculated or queried.
+- How reservation concurrency will be protected.
+- How to keep database schema migrations version-controlled in a later phase.
+
+Do not build the full backend now.
+
+Do not use Hibernate schema auto-generation as a substitute for a reviewed database schema. For the eventual deployed application, recommend controlled schema migrations and a deliberate schema-management policy.
+
+---
+
+# 15. VALIDATION AND EXECUTION
+
+Use a real MySQL instance if one is available in the environment.
+
+If available:
+
+1. Record the MySQL version.
+2. Create a fresh development database.
+3. Execute scripts in the documented order.
+4. Load the seed data.
+5. Execute validation and reporting queries.
+6. Run the database test plan as far as possible.
+7. Fix SQL errors and schema inconsistencies.
+8. Record actual outputs and results.
+
+If MySQL is not available:
+
+- Still create the SQL scripts and documentation.
+- Inspect scripts for dependency order and consistency.
+- Run static checks where practical.
+- Clearly state that database execution was not performed.
+- Provide exact local execution instructions.
+- Do not mark unexecuted database tests as passed.
+
+Do not claim that MySQL is installed or available unless you have checked.
+
+---
+
+# 16. PHASE 2 DEFINITION OF DONE
+
+Phase 2 is complete only when:
+
+- The schema supports all agreed core workflows.
+- The ER diagram matches the actual schema.
+- All required SQL scripts exist.
+- Primary and foreign keys are correctly designed.
+- Essential constraints and indexes are defined.
+- Demo data is coherent.
+- Reporting queries are documented.
+- Readiness rules are documented and correct.
+- Reservation concurrency limitations and transaction strategy are explained.
+- Reuse Passport history is supported.
+- Impact metrics distinguish completed reuse, estimates, reports, and reservations.
+- Setup documentation is clear enough for another developer to follow.
+- SQL execution and test results are reported honestly.
+- Phase 1 frontend files remain intact.
+
+---
+
+# 17. FINAL REPORT FORMAT
+
+When implementation is complete, provide a report containing:
+
+## A. Files created or modified
+List the actual paths.
+
+## B. Database design summary
+Explain the main entities and relationships in simple English.
+
+## C. ER diagram
+Explain how to render or preview the diagram.
+
+## D. SQL execution status
+List which scripts actually ran and whether they succeeded.
+
+## E. Testing results
+Show test IDs, actual outcomes, and any tests not executed.
+
+## F. Important design decisions
+Explain inventory quantities, reservation allocation, overlapping dates, item history, readiness, and completed reuse.
+
+## G. Remaining issues
+Identify unresolved schema, execution, or business-rule problems.
+
+## H. Instructions for Phase 3
+State the database entities, relationships, and business rules that the Spring Boot backend must implement.
+
+Start by inspecting the repository. Then implement Phase 2 directly in the workspace and validate it as far as the environment allows.
+
+Do not begin the full backend implementation in this phase. Preserve Phase 1 and leave a clean foundation for Phase 3.
+
+
+
+# PHASE 3 MASTER PROMPT — RELOOP CAMPUS
+## Java Spring Boot Backend, REST APIs, MySQL Integration, Security, Business Logic and Testing
+
+Act as a senior Java backend engineer, Spring Boot architect, MySQL engineer, application security engineer, API designer, and QA engineer.
+
+Your responsibility is to implement Phase 3 of ReLoop Campus in the actual project workspace.
+
+Do not merely explain how to build the backend. Inspect the repository, implement the required files, connect to the database when available, run tests, fix errors, and report verified results.
+
+The final result must be a maintainable, secure, testable backend that the existing React + Vite frontend can use.
+
+---
+
+# 1. PROJECT CONTEXT
+
+**Project:** ReLoop Campus
+
+**Tagline:** Before buying new, discover what your campus can reuse.
+
+ReLoop Campus helps college departments and event organizers discover and reuse existing event materials instead of unnecessarily purchasing new materials.
+
+The application supports:
+
+- Centralized inventory
+- Item categories, quantities, conditions, departments, and locations
+- Events and material requirements
+- Reservation requests and approvals
+- Safe stock allocation and double-booking prevention
+- Verified handovers and returns
+- Condition inspections and repairs
+- QR-based Reuse Passports and item history
+- Event Reuse Readiness Score
+- Reuse-First Decision Assistant
+- Lost-opportunity tracking
+- Dashboard statistics and impact reporting
+- Notifications and role-based access
+
+The three differentiating features are:
+
+1. **Event Reuse Readiness Score:** Calculate how much event demand can be fulfilled by eligible inventory.
+2. **Reuse-First Decision Assistant:** Recommend reuse, inspection, repair, alternatives, or purchasing only the remaining shortage.
+3. **Reuse Chain and Lost-Opportunity Tracker:** Track item journeys, repeated use, unfulfilled demand, repair delays, and recorded disposal.
+
+Preserve these features while implementing the backend.
+
+---
+
+# 2. INSPECT THE EXISTING PROJECT FIRST
+
+Before coding:
+
+1. Inspect the repository structure.
+2. Read the Phase 1 React + Vite implementation.
+3. Inspect the Phase 2 SQL scripts, schema, ER diagram, seed data, and business rules.
+4. Identify the actual MySQL table names, columns, foreign keys, and status values.
+5. Review the existing frontend routes, mock data, API abstraction, and readiness calculation.
+6. Check the installed Java and Maven versions and existing project conventions.
+7. Identify which files already exist and which need to be created.
+
+**Important:** The actual Phase 2 schema is the source of truth for database mapping. Do not invent a different schema or silently rename tables and columns.
+
+If the database design has a genuine defect, document it and propose a small, justified correction. Keep SQL, JPA entities, API contracts, and frontend expectations consistent.
+
+Preserve useful existing work. Do not recreate the entire application unnecessarily.
+
+---
+
+# 3. FIXED TECHNOLOGY STACK
+
+Use:
+
+- Java 21 or the compatible Java version already established by the repository
+- Spring Boot, matching the existing project version where possible
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- MySQL Connector/J
+- Spring Security
+- Bean Validation
+- Maven
+- JUnit 5
+- Mockito
+- Spring Boot Test
+- MockMvc for HTTP integration tests
+- Postman for manual API verification
+
+Use a stable, compatible dependency combination. Do not upgrade the entire project without a technical reason.
+
+Do not replace Java with Python or Node.js for backend business logic.
+
+Do not replace MySQL with another database.
+
+Do not introduce microservices, Kafka, Kubernetes, or Docker as mandatory infrastructure for this phase. Keep the architecture understandable for a college hackathon project.
+
+---
+
+# 4. BACKEND PROJECT STRUCTURE
+
+Inspect the existing structure before choosing the final layout.
+
+If a separate backend directory is appropriate, use a structure similar to:
+
+```text
+backend/
+├── pom.xml
+├── README.md
+├── .env.example
+├── src/
+│   ├── main/
+│   │   ├── java/com/reloopcampus/
+│   │   │   ├── ReLoopCampusApplication.java
+│   │   │   ├── config/
+│   │   │   ├── security/
+│   │   │   ├── controller/
+│   │   │   ├── dto/
+│   │   │   │   ├── request/
+│   │   │   │   └── response/
+│   │   │   ├── entity/
+│   │   │   ├── enums/
+│   │   │   ├── repository/
+│   │   │   ├── service/
+│   │   │   ├── exception/
+│   │   │   ├── mapper/
+│   │   │   └── util/
+│   │   └── resources/
+│   │       └── application.yml
+│   └── test/
+│       └── java/com/reloopcampus/
+├── postman/
+│   └── ReLoop-Campus.postman_collection.json
+└── docs/
+    ├── api-documentation.md
+    ├── authorization-matrix.md
+    └── test-report.md
+```
+
+Adapt the package name and directory structure to the existing repository.
+
+Do not create duplicate classes or duplicate Spring Boot applications.
+
+---
+
+# 5. APPLICATION CONFIGURATION
+
+Implement configuration for:
+
+- Application port
+- MySQL URL
+- Database username
+- Database password
+- JPA settings
+- Logging
+- CORS
+- Authentication
+- Token expiration
+- Test database configuration
+
+Use environment variables or a suitable local configuration mechanism.
+
+Provide a safe `.env.example` or equivalent configuration template.
+
+Never commit real credentials, production secrets, JWT signing keys, or passwords.
+
+Do not place credentials in frontend source files.
+
+Use an explicit schema-management policy. Since Phase 2 supplies the database schema, do not let Hibernate silently alter production tables. Use a deliberate migration strategy where appropriate and document the chosen `ddl-auto` setting.
+
+Ensure the application starts with a clear, actionable error message when the database is unreachable.
+
+Document the exact commands to run the application from IntelliJ IDEA and Maven on Windows.
+
+---
+
+# 6. ENTITY AND REPOSITORY LAYER
+
+Create JPA entities and repositories that accurately represent the Phase 2 database.
+
+Include the actual agreed entities for:
+
+- Users and roles
+- Departments
+- Item categories
+- Inventory items and identifiers
+- Events and material requirements
+- Reservations and reservation items
+- Handovers and returns
+- Condition inspections
+- Repair records
+- Item history or lifecycle events
+- Notifications
+- Unfulfilled requests
+- Disposal records
+- Audit logs, if included in Phase 2
+
+Only create entities for tables that actually exist in the agreed schema.
+
+Requirements:
+
+1. Match column names and SQL data types.
+2. Map primary and foreign keys correctly.
+3. Use suitable relationship annotations.
+4. Avoid unnecessary eager loading.
+5. Prevent infinite JSON serialization through entity relationships.
+6. Use DTOs rather than exposing JPA entities directly.
+7. Avoid cascading deletion of historical records.
+8. Use `BigDecimal` for monetary values.
+9. Use integer types for physical quantities.
+10. Use consistent timestamp and timezone handling.
+11. Avoid storing large uploaded image binaries in ordinary entity fields.
+12. Use enums or controlled values that match the database's actual status model.
+
+Create repository methods for common searches and filtered inventory queries. Use pagination for potentially large lists.
+
+Do not load the entire inventory table to filter it in Java when a suitable database query can do the work.
+
+---
+
+# 7. DTOs, VALIDATION AND ERROR HANDLING
+
+Create request and response DTOs for every API.
+
+Do not bind arbitrary user input directly to database entities.
+
+Use Bean Validation annotations such as:
+
+- `@NotBlank`
+- `@NotNull`
+- `@Positive`
+- `@PositiveOrZero`
+- `@Email`
+- `@Size`
+- `@Valid`
+
+Choose validations that match each field's actual business meaning.
+
+Implement a centralized exception handler using `@RestControllerAdvice`.
+
+Return consistent JSON error responses with:
+
+- Timestamp
+- HTTP status
+- Stable error code
+- Human-readable message
+- Field validation errors when applicable
+- Request path or trace identifier where useful
+
+Handle at least:
+
+- Invalid input
+- Missing resources
+- Duplicate identifiers
+- Authentication failures
+- Authorization failures
+- Invalid state transitions
+- Insufficient inventory
+- Reservation conflicts
+- Database integrity violations
+- Unexpected server errors
+
+Never return stack traces, passwords, token contents, database credentials, or internal SQL details to clients.
+
+Use appropriate HTTP status codes, including 400, 401, 403, 404, 409, and 500 when applicable.
+
+---
+
+# 8. AUTHENTICATION AND AUTHORIZATION
+
+Implement real backend security, not frontend-only role checks.
+
+Support:
+
+- User registration
+- Login
+- Password hashing
+- Role-based authorization
+- Protected endpoints
+- Current-user identity
+- Logout or token invalidation strategy appropriate to the selected authentication design
+
+Use a maintained Spring Security approach compatible with the chosen Spring Boot version.
+
+If using JWT:
+
+- Sign tokens with a strong secret supplied through configuration.
+- Set and validate token expiration.
+- Never hardcode the production signing secret.
+- Validate signature and token claims.
+- Avoid logging tokens.
+- Do not place passwords or sensitive personal data in JWT claims.
+- Return tokens only through the documented authentication response.
+- Explain the selected token storage and logout limitations.
+
+If the project already uses another suitable authentication architecture, inspect it before changing it.
+
+Registration must never allow users to submit an arbitrary role and become an administrator.
+
+Create a safe bootstrap strategy for the first administrator. Do not hardcode a default production admin password or expose a public admin-creation endpoint.
+
+Use least privilege.
+
+## Authorization matrix
+
+Create `docs/authorization-matrix.md`.
+
+Define permissions for roles such as:
+
+- Student
+- Organizer
+- Item Coordinator
+- Admin
+
+Examples:
+
+- A user can view permitted inventory.
+- A user can create a reservation for an event they are authorized to use.
+- An organizer can manage events within their permitted scope.
+- An item coordinator can manage the inventory assigned to their responsibility.
+- Only authorized users can approve or reject reservations.
+- Only authorized users can verify handovers, returns, inspections, and repairs.
+- Administrative actions require administrative authorization.
+
+These are initial rules; align them with the existing domain model and document the final choices.
+
+Check object-level authorization on every relevant operation. Knowing a reservation ID or item ID must not grant permission to modify it.
+
+---
+
+# 9. REQUIRED REST API MODULES
+
+Use consistent REST conventions under `/api/v1`.
+
+Return documented JSON responses and appropriate HTTP status codes.
+
+Create the endpoints below, adapting names only when necessary for consistency with the existing frontend.
+
+## A. Authentication
+
+- `POST /api/v1/auth/register`
+- `POST /api/v1/auth/login`
+- `GET /api/v1/auth/me`
+- `POST /api/v1/auth/logout` if supported by the selected authentication strategy
+
+Registration must validate input, hash passwords, and assign only allowed default roles.
+
+Login must return a consistent response for valid credentials and a safe authentication error for invalid credentials.
+
+Do not expose whether a particular email exists unnecessarily.
+
+## B. Users and departments
+
+- `GET /api/v1/users/me`
+- `GET /api/v1/departments`
+- `GET /api/v1/departments/{id}`
+
+Administrative user-management endpoints may be included if justified and protected.
+
+Do not expose password hashes in responses.
+
+## C. Inventory
+
+- `GET /api/v1/inventory`
+- `GET /api/v1/inventory/{id}`
+- `POST /api/v1/inventory`
+- `PUT /api/v1/inventory/{id}`
+- `PATCH /api/v1/inventory/{id}/status`
+- `GET /api/v1/inventory/categories`
+- `GET /api/v1/inventory/{id}/history`
+- `GET /api/v1/inventory/{id}/reuse-passport`
+- `GET /api/v1/inventory/qr/{identifier}`
+
+Support useful query parameters for:
+
+- Search text
+- Category
+- Department
+- Condition
+- Lifecycle status
+- Availability during a requested time interval
+- Page number
+- Page size
+- Sort order
+
+Use a clear pagination response.
+
+Validate sort fields to prevent arbitrary query behavior.
+
+The QR endpoint must return only public item information. It must not bypass authentication or authorization for private operations.
+
+## D. Events and requirements
+
+- `GET /api/v1/events`
+- `GET /api/v1/events/{id}`
+- `POST /api/v1/events`
+- `PUT /api/v1/events/{id}`
+- `PATCH /api/v1/events/{id}/status`
+- `GET /api/v1/events/{id}/requirements`
+- `POST /api/v1/events/{id}/requirements`
+- `PUT /api/v1/events/{id}/requirements/{requirementId}`
+- `DELETE /api/v1/events/{id}/requirements/{requirementId}` where deletion is safe and authorized
+
+Validate event date ranges and ownership permissions.
+
+Do not permit destructive changes that silently invalidate completed reservations or history.
+
+## E. Reservations
+
+- `POST /api/v1/reservations`
+- `GET /api/v1/reservations`
+- `GET /api/v1/reservations/{id}`
+- `PATCH /api/v1/reservations/{id}/approve`
+- `PATCH /api/v1/reservations/{id}/reject`
+- `PATCH /api/v1/reservations/{id}/cancel`
+
+Filter requests by the authenticated user's permissions.
+
+Validate quantities, event requirements, eligible inventory, time conflicts, and reservation state transitions.
+
+Approval must run the actual stock-allocation workflow in a transaction.
+
+Never trust a frontend-supplied availability figure.
+
+Reject invalid transitions, such as approving a cancelled request, with a clear conflict response.
+
+## F. Handover and returns
+
+- `POST /api/v1/reservations/{id}/handover`
+- `POST /api/v1/reservations/{id}/return`
+- `GET /api/v1/reservations/{id}/handover-history`
+
+Only authorized users can verify physical handover or return.
+
+Support partial returns only if the Phase 2 model supports them.
+
+Prevent return quantities from exceeding outstanding handed-over quantities.
+
+Record the actor, timestamp, quantities, and condition information required by the schema.
+
+Do not mark a reservation as completed merely because a handover happened.
+
+## G. Inspections and repairs
+
+- `POST /api/v1/inventory/{id}/inspections`
+- `GET /api/v1/inventory/{id}/inspections`
+- `POST /api/v1/inventory/{id}/repairs`
+- `GET /api/v1/inventory/{id}/repairs`
+- `PATCH /api/v1/repairs/{id}/status`
+
+Validate who may inspect inventory and update repair records.
+
+A repair marked complete must not automatically make an item usable if the business rules require a post-repair inspection.
+
+Preserve condition history.
+
+## H. Readiness and decision assistant
+
+- `GET /api/v1/events/{id}/readiness`
+- `GET /api/v1/events/{id}/reuse-recommendations`
+
+Implement the actual calculation and transparent recommendation rules described below.
+
+## I. Dashboard and reports
+
+- `GET /api/v1/dashboard/summary`
+- `GET /api/v1/dashboard/recent-activity`
+- `GET /api/v1/reports/inventory`
+- `GET /api/v1/reports/reuse`
+- `GET /api/v1/reports/unfulfilled-requests`
+- `GET /api/v1/reports/repairs`
+- `GET /api/v1/reports/disposal`
+
+Only return data that the authenticated user is authorized to access.
+
+Ensure reports do not double-count results caused by joining multiple one-to-many tables.
+
+## J. Notifications
+
+- `GET /api/v1/notifications`
+- `PATCH /api/v1/notifications/{id}/read`
+
+A user must not be able to read or modify another user's private notifications.
+
+---
+
+# 10. RESERVATION ALLOCATION AND CONCURRENCY
+
+This is one of the most important parts of the project.
+
+Implement a real transactional allocation workflow in the service layer.
+
+Do not rely on checking stock in React and then trusting the submitted result.
+
+For a reservation approval or allocation:
+
+1. Start a database transaction.
+2. Load and lock the relevant inventory or stock-balance rows with an appropriate locking query.
+3. Validate the reservation state and authorized reviewer.
+4. Determine the requested event use interval.
+5. Recalculate stock eligibility from current database state.
+6. Calculate existing overlapping allocations.
+7. Determine the remaining allocatable quantity.
+8. Reject or partially allocate according to the documented business rule.
+9. Update reservation and allocation records consistently.
+10. Write the required audit/history records.
+11. Commit the transaction.
+
+Handle concurrent requests safely.
+
+The overlap rule should be consistent across the backend and reports. For half-open intervals, two intervals overlap when:
+
+`existingStart < requestedEnd AND requestedStart < existingEnd`
+
+Treat the event end time as exclusive if that is the chosen domain rule, and document it.
+
+For inventory lots with multiple units, a unique reservation per item is not sufficient to prevent overbooking. Use locking and transactional quantity validation.
+
+Ensure that every allocation path follows the same rules. Do not allow a secondary endpoint to bypass the safe allocation service.
+
+Use optimistic or pessimistic locking where justified. Explain the selected approach and how deadlocks or transaction conflicts are handled.
+
+Test concurrent allocation scenarios where practical. Do not claim concurrency is solved solely because a `@Transactional` annotation exists.
+
+---
+
+# 11. EVENT REUSE READINESS SCORE
+
+Implement a reusable service, such as `ReadinessService`.
+
+Formula:
+
+**Readiness = allocatable required units ÷ total required units × 100**
+
+Requirements:
+
+1. Sum all event material requirements for the denominator.
+2. Determine eligible stock for each requirement.
+3. Exclude retired, damaged, unavailable, and inspection-pending stock.
+4. Exclude stock committed to overlapping approved reservations.
+5. Count only units that can actually be allocated to this event.
+6. Never allocate the same stock twice.
+7. Cap fulfilled units at each requirement's requested quantity.
+8. Return a value between 0 and 100.
+9. If no requirements exist, return a clear status such as `REQUIREMENTS_NOT_ADDED`, not `NaN` or a division-by-zero result.
+10. Do not count rejected or cancelled reservations as active allocations.
+11. Do not treat pending requests as committed stock unless the documented reservation policy explicitly says otherwise.
+12. Keep calculations consistent with the allocation service.
+
+Return a response similar to:
+
+```json
+{
+  "eventId": 101,
+  "status": "PARTIALLY_READY",
+  "totalRequiredUnits": 20,
+  "allocatableUnits": 14,
+  "shortageUnits": 6,
+  "readinessPercentage": 70.0,
+  "requirementsAdded": true
+}
+```
+
+This is an illustrative response shape. Adapt it to the actual IDs, DTO conventions, and schema.
+
+If there are no requirements, return `requirementsAdded: false`, a status of `REQUIREMENTS_NOT_ADDED`, and a null readiness percentage.
+
+Do not confuse total stock physically recorded with stock actually available for this event's dates.
+
+Document how different categories or specifications are matched to event requirements.
+
+Add unit tests for the readiness logic.
+
+---
+
+# 12. REUSE-FIRST DECISION ASSISTANT
+
+Implement a transparent rules-based recommendation service. Do not make an external AI API a mandatory dependency.
+
+For each event material requirement:
+
+1. Identify eligible existing inventory.
+2. Calculate the quantity that can be allocated for the event period.
+3. Identify items awaiting inspection that could become candidates after verification.
+4. Identify repairable items, clearly marking them as unavailable until repaired and verified.
+5. Identify alternatives only when the category, specification, or substitution relationship is actually supported by stored data or an explicit rule.
+6. Calculate the remaining shortage.
+7. Recommend purchasing only the remaining shortage when the rules establish that no eligible or permitted alternative can fulfil it.
+
+Return recommendations with:
+
+- Required material
+- Required quantity
+- Eligible available quantity
+- Recommended allocation
+- Remaining shortage
+- Recommended action
+- Reason
+- Any inspection or repair dependency
+
+Possible action values include:
+
+- `REUSE_EXISTING`
+- `INSPECT_BEFORE_USE`
+- `REPAIR_THEN_REASSESS`
+- `CHECK_APPROVED_ALTERNATIVES`
+- `PURCHASE_REMAINING_SHORTAGE`
+- `REQUIREMENTS_NOT_ADDED`
+
+Never label damaged or inspection-pending stock as ready.
+
+Do not claim to have checked another department unless the relevant inventory query was actually performed.
+
+Do not claim a purchase was avoided simply because a recommendation was shown.
+
+Add tests for shortage calculations, item eligibility, and recommendation precedence.
+
+---
+
+# 13. REUSE PASSPORT AND LOST-OPPORTUNITY TRACKING
+
+Implement a service for retrieving the chronological history of an inventory item.
+
+The timeline may include:
+
+- Registration
+- Reservation allocation
+- Handover
+- Return
+- Inspection
+- Damage report
+- Repair
+- Repeated completed use
+- Retirement or recorded disposal
+
+Use actual records from the database.
+
+Ensure historical records are not duplicated when a single physical event is represented in more than one table.
+
+Define a clear completion rule for a verified reuse. For example, a completed cycle may require a verified handover followed by a verified return and the necessary final condition record, depending on the chosen inventory model.
+
+Do not count:
+
+- Reservation creation as completed reuse
+- Approval as completed reuse
+- An unverified return as a verified return
+- Missing inventory as confirmed disposal
+- Estimated environmental impact as measured impact
+
+Implement lost-opportunity reporting using unfulfilled material requests, shortages, recurring demand, and repair delays.
+
+Avoid double-counting the same unfulfilled request across reports.
+
+---
+
+# 14. DASHBOARD AND IMPACT METRICS
+
+Implement summary services that return truthful, explainable values.
+
+Potential metrics:
+
+- Total registered inventory items or lots
+- Total recorded physical units
+- Units currently eligible for use
+- Pending reservation requests
+- Verified completed reuse cycles
+- Open repairs
+- Pending inspections
+- Upcoming events
+- Recorded unfulfilled requests
+- Reported disposal cases
+
+Clearly distinguish between item count, inventory-lot count, and unit count.
+
+If a metric is unavailable from the current schema, do not invent it. Document what must be added or calculated.
+
+Do not return fake carbon savings, fake money saved, or hardcoded dashboard values.
+
+If purchase avoidance is user-reported, label it accordingly.
+
+If environmental estimates are added later, keep their conversion methodology and assumptions explicit.
+
+Use efficient database queries and pre-aggregation to avoid inflated counts.
+
+---
+
+# 15. NOTIFICATIONS AND AUDIT HISTORY
+
+When business actions occur, create the appropriate notification and audit/history records where the schema supports them.
+
+Examples:
+
+- Reservation approved or rejected
+- Handover verified
+- Return overdue
+- Inspection completed
+- Repair status changed
+
+Keep notification creation consistent with the successful business transaction.
+
+A failed allocation must not produce a misleading approval notification.
+
+Do not expose internal exception details in notifications.
+
+If email or SMS infrastructure is not available, implement in-app notification records and document the integration as a future enhancement.
+
+---
+
+# 16. FRONTEND INTEGRATION CONTRACT
+
+Inspect Phase 1's API abstraction and use it as the integration contract.
+
+If Phase 1 already defines endpoint paths or response shapes, reuse them where appropriate. Otherwise document the final contracts clearly.
+
+Configure CORS for the frontend development origin through application configuration.
+
+Do not use wildcard production CORS settings with credentials.
+
+Ensure the frontend can configure the backend base URL through a Vite environment variable such as:
+
+`VITE_API_BASE_URL`
+
+The backend must not depend on Vite being present.
+
+For the main UI screens, document:
+
+- Endpoint
+- HTTP method
+- Request DTO
+- Success response
+- Error response
+- Authentication requirement
+- Required role or ownership permission
+
+Create `docs/api-documentation.md` and a Postman collection containing the implemented endpoints.
+
+Where possible, test the actual endpoints rather than relying only on written examples.
+
+Do not claim that the frontend is fully integrated unless its API calls are actually connected and verified. A full frontend integration pass belongs to Phase 4.
+
+---
+
+# 17. TESTING REQUIREMENTS
+
+Write automated tests for important behavior.
+
+## Unit tests
+
+Test at least:
+
+- Readiness calculations
+- Zero-requirement handling
+- Inventory eligibility
+- Reservation state transitions
+- Shortage calculations
+- Recommendation rules
+- Return quantity validation
+- Completed reuse classification
+- Permission checks for sensitive operations where testable at the chosen layer
+
+Use JUnit 5 and Mockito where suitable.
+
+## Repository and database tests
+
+Use the actual MySQL database for integration testing when available, or a compatible test setup that genuinely validates the behavior under test.
+
+Do not assume H2 is identical to MySQL. If using H2 for isolated tests, document MySQL-specific features that still require testing against MySQL.
+
+Do not allow integration tests to damage real development or production data.
+
+## API tests
+
+Use MockMvc or another appropriate test mechanism for:
+
+- Valid request
+- Invalid request
+- Missing authentication
+- Insufficient permissions
+- Missing resource
+- Duplicate resource or conflicting request
+- Validation error response
+- Protected endpoint behavior
+
+## Concurrency tests
+
+Where practical, verify that two competing allocation requests cannot allocate more units than are eligible.
+
+Test the transaction boundary and database locking behavior against the intended database when possible.
+
+## Minimum test report
+
+Include test IDs, purpose, expected result, actual result, and execution status.
+
+Clearly mark tests that were not executed.
+
+Never fabricate passing test results.
+
+---
+
+# 18. POSTMAN COLLECTION
+
+Create an importable Postman collection with organized folders:
+
+1. Authentication
+2. Departments and Users
+3. Inventory
+4. Events and Requirements
+5. Reservations
+6. Handovers and Returns
+7. Inspections and Repairs
+8. Readiness and Recommendations
+9. Dashboard and Reports
+10. Notifications
+
+Include example requests and safe example values.
+
+Use collection variables for the backend base URL and authentication token where appropriate.
+
+Do not include actual passwords or real tokens.
+
+Include a documented test sequence, such as:
+
+1. Register or authenticate a permitted demo user.
+2. Retrieve the current user.
+3. List inventory.
+4. Create an event.
+5. Add event material requirements.
+6. Request eligible materials.
+7. Approve the reservation with an authorized reviewer.
+8. Verify handover.
+9. Record return and condition inspection.
+10. Retrieve the item Reuse Passport.
+11. Verify readiness and reporting metrics.
+
+Adapt the sequence to the actual role model and implemented APIs.
+
+---
+
+# 19. API SECURITY CHECKLIST
+
+Before declaring the backend ready, check:
+
+- Passwords are hashed.
+- Secrets are not hardcoded.
+- Authentication is enforced by the backend.
+- Authorization is checked on sensitive endpoints.
+- Object-level ownership is checked.
+- Request DTOs are validated.
+- Database queries are parameterized through safe framework mechanisms.
+- Responses do not expose password hashes or confidential fields.
+- CORS is configured intentionally.
+- Error responses do not expose stack traces.
+- QR endpoints expose only appropriate public information.
+- Reservation allocation is transactionally protected.
+- State transitions are validated.
+- Audit and timeline events reflect actual completed operations.
+- Production configuration does not use development secrets or permissive settings.
+
+Document remaining limitations.
+
+---
+
+# 20. PHASE 3 DEFINITION OF DONE
+
+Phase 3 is complete when:
+
+- The Spring Boot application builds.
+- It connects to the agreed MySQL schema when the database is available.
+- JPA mappings match the actual schema.
+- The implemented REST APIs use consistent DTOs and error handling.
+- Authentication and authorization work for the implemented flows.
+- Inventory and event operations work.
+- Reservation approval validates current stock and overlapping allocations.
+- The readiness calculation is implemented and tested.
+- Reuse-first recommendations use transparent business rules.
+- Handovers, returns, inspections, repairs, and item history are supported.
+- Dashboard and reporting metrics do not invent results or double-count records.
+- Automated tests run and their results are reported honestly.
+- The Postman collection and API documentation match the implemented endpoints.
+- The frontend source remains compatible with Phase 1.
+- All incomplete features and environmental limitations are documented.
+
+Do not declare every feature complete merely because a controller class exists. Verify behavior, validation, security, and persistence.
+
+---
+
+# 21. FINAL IMPLEMENTATION REPORT
+
+When finished, provide:
+
+## A. Files created and modified
+List actual paths and important changes.
+
+## B. Architecture
+Explain controller → service → repository → database flow in simple English.
+
+## C. Database compatibility
+Report whether the backend was tested against the actual Phase 2 MySQL schema.
+
+## D. Implemented APIs
+List endpoints with HTTP methods and authentication requirements.
+
+## E. Security
+Explain authentication, role checks, ownership checks, and remaining risks.
+
+## F. Business logic
+Explain reservation locking, availability, readiness, recommendation rules, and completed reuse criteria.
+
+## G. Testing
+Show the tests executed, passed, failed, and not run.
+
+## H. Run instructions
+Provide the exact commands to start the backend on Windows and how to configure local database credentials safely.
+
+## I. Postman
+Explain how to import and use the collection.
+
+## J. Remaining issues
+List genuine gaps. Do not hide failed builds or unfinished endpoints.
+
+## K. Phase 4 handoff
+Identify the API contracts that the React + Vite frontend should now consume.
+
+Begin by inspecting the repository and Phase 2 database artifacts. Implement the backend incrementally, run the build and tests, fix errors, and report only what has actually been verified.
+
+Do not replace the frontend stack, rewrite working Phase 1 code unnecessarily, or fabricate implementation and test results.
+
+# PHASE 4 MASTER PROMPT — RELOOP CAMPUS
+## React + Vite Frontend Implementation, Spring Boot API Integration, Responsive UI and End-to-End Workflows
+
+Act as a senior React engineer, frontend architect, UX/UI designer, accessibility specialist, API integration engineer, and QA engineer.
+
+Implement Phase 4 of ReLoop Campus directly in the existing project workspace.
+
+Do not merely provide instructions or code snippets. Inspect the existing files, implement the required features, connect the frontend to the actual Spring Boot backend, run the application, test user workflows, fix errors, and report what has genuinely been verified.
+
+The objective is to transform the Phase 1 UI foundation into a functional, responsive application backed by the Phase 2 MySQL database and Phase 3 Java Spring Boot REST APIs.
+
+---
+
+# 1. PROJECT CONTEXT
+
+## Application name
+ReLoop Campus
+
+## Tagline
+"Before buying new, discover what your campus can reuse."
+
+ReLoop Campus is a verified campus reuse platform that helps college departments and event organizers find, reserve, reuse, repair, return, and track event materials.
+
+It addresses repeated purchases caused by fragmented inventory information, unclear item condition, inaccurate availability, reservation conflicts, and poor reuse tracking.
+
+The product must support these three differentiating features:
+
+1. **Event Reuse Readiness Score:** Show how much of an event's material requirement can be fulfilled by eligible, date-compatible inventory.
+2. **Reuse-First Decision Assistant:** Recommend reuse, inspection, repair, approved alternatives, or purchase of the remaining shortage, with transparent reasons.
+3. **Reuse Chain and Lost-Opportunity Tracker:** Display verified item history and surface unmet requests, recurring shortages, repair delays, and recorded disposal.
+
+Also implement the core workflows: authentication, inventory management, event management, reservation approvals, handover and return verification, inspections, repairs, QR-based Reuse Passports, dashboard analytics, notifications, and reports.
+
+---
+
+# 2. INSPECT ALL PREVIOUS PHASES BEFORE CODING
+
+Inspect the existing repository and identify:
+
+- Phase 1 React + Vite project structure and UI.
+- Existing routes, reusable components, styles, design tokens, mock data, and readiness utilities.
+- Phase 2 database schema and business rules.
+- Phase 3 backend endpoints, DTOs, authentication approach, response formats, role model, and API documentation.
+- Existing tests, environment files, and build scripts.
+
+Use the actual API contracts from Phase 3.
+
+Do not invent endpoint paths, response fields, status values, or request formats when the backend documentation or implementation already defines them.
+
+If an endpoint has not been implemented in Phase 3:
+
+1. Identify the missing endpoint.
+2. Determine whether an existing endpoint can safely provide the required information.
+3. If not, document the backend gap clearly.
+4. Implement the frontend loading, empty, and unavailable states.
+5. Do not silently replace the missing endpoint with fake production data.
+
+Preserve the existing design and working code wherever possible. Improve it rather than rebuilding everything from scratch.
+
+---
+
+# 3. FIXED FRONTEND TECHNOLOGY STACK
+
+Use:
+
+- React
+- Vite
+- JavaScript and JSX, unless the existing repository already uses TypeScript
+- React Router
+- Fetch API or the existing HTTP client
+- Plain CSS with reusable CSS variables and component styles
+- Lucide React if icons are needed
+- Vitest
+- React Testing Library
+- `@testing-library/user-event`
+- Mock Service Worker or equivalent API mocking for frontend tests, if appropriate
+
+Do not switch to Next.js, Angular, Vue, or another frontend framework.
+
+Do not rewrite the backend in JavaScript.
+
+Do not introduce a large UI framework unless the project already uses one and there is a clear reason to keep it.
+
+Use the existing package manager and lockfile. Do not replace a working dependency setup unnecessarily.
+
+---
+
+# 4. REQUIRED PROJECT ORGANIZATION
+
+Adapt the existing structure. If necessary, use:
+
+```text
+src/
+├── app/
+│   ├── App.jsx
+│   └── router.jsx
+├── components/
+│   ├── layout/
+│   ├── common/
+│   ├── forms/
+│   ├── inventory/
+│   ├── events/
+│   ├── reservations/
+│   ├── readiness/
+│   ├── history/
+│   └── dashboard/
+├── pages/
+│   ├── LandingPage.jsx
+│   ├── LoginPage.jsx
+│   ├── RegisterPage.jsx
+│   ├── DashboardPage.jsx
+│   ├── InventoryPage.jsx
+│   ├── InventoryDetailsPage.jsx
+│   ├── InventoryCreatePage.jsx
+│   ├── EventsPage.jsx
+│   ├── EventDetailsPage.jsx
+│   ├── EventCreatePage.jsx
+│   ├── EventReadinessPage.jsx
+│   ├── ReservationsPage.jsx
+│   ├── HandoverReturnPage.jsx
+│   ├── ReusePassportPage.jsx
+│   ├── InspectionsPage.jsx
+│   ├── RepairsPage.jsx
+│   ├── ReportsPage.jsx
+│   ├── NotificationsPage.jsx
+│   └── NotFoundPage.jsx
+├── services/
+│   ├── apiClient.js
+│   ├── authService.js
+│   ├── inventoryService.js
+│   ├── eventService.js
+│   ├── reservationService.js
+│   ├── readinessService.js
+│   ├── historyService.js
+│   ├── reportService.js
+│   └── notificationService.js
+├── hooks/
+├── context/
+├── utils/
+├── styles/
+├── test/
+├── main.jsx
+└── index.css
+```
+
+Use a simpler structure if the existing repository already has a clean organization. Avoid creating empty files solely to match this example.
+
+---
+
+# 5. VISUAL DESIGN AND USER EXPERIENCE
+
+Retain and refine the established ReLoop Campus visual identity.
+
+Use the existing design tokens where available. Otherwise use this starting palette:
+
+- Forest green: `#14532D`
+- Deep green: `#123B2A`
+- Cream background: `#F7F5EC`
+- White: `#FFFFFF`
+- Lime accent: `#D9F99D`
+- Soft blue: `#DCEBFF`
+- Soft coral: `#FCE7DF`
+- Lavender: `#E9DDF8`
+- Primary text: `#1F2937`
+- Secondary text: `#64748B`
+- Borders: `#E5E7EB`
+
+Build a polished campus sustainability product, not a generic admin template.
+
+The UI should have:
+
+- A clear navigation hierarchy
+- Consistent page titles and action buttons
+- Well-designed forms and validation messages
+- Readable data tables or responsive list layouts
+- Meaningful status indicators
+- Clear empty, loading, success, and error states
+- Appropriate spacing and typography
+- Accessible color contrast
+- Responsive layouts for desktop, tablet, and mobile
+- Keyboard-friendly interactions
+- Visible focus states
+- Helpful confirmations for destructive or consequential actions
+
+Avoid excessive animations, unnecessary gradients, decorative charts with invented data, and cluttered dashboards.
+
+Do not sacrifice functionality for appearance.
+
+---
+
+# 6. APPLICATION SHELL AND ROUTING
+
+Implement the main application shell with:
+
+- Sidebar or suitable primary navigation
+- Top bar
+- Page content area
+- User profile or account menu
+- Notification entry point
+- Responsive mobile navigation
+- Consistent active-route styling
+- Breadcrumbs where useful
+
+Support routes consistent with the actual application:
+
+- `/`
+- `/login`
+- `/register`
+- `/dashboard`
+- `/inventory`
+- `/inventory/new`
+- `/inventory/:id`
+- `/events`
+- `/events/new`
+- `/events/:id`
+- `/events/:id/readiness`
+- `/reservations`
+- `/handover`
+- `/inventory/:id/reuse-passport`
+- `/inspections`
+- `/repairs`
+- `/reports`
+- `/notifications`
+
+Preserve existing routes if they differ.
+
+Add a useful 404 page.
+
+Implement protected routes and role-sensitive navigation, but remember that backend authorization remains the real security boundary.
+
+After login, redirect the user to the appropriate application page. Handle logout consistently with the actual Phase 3 authentication design.
+
+---
+
+# 7. CENTRAL API CLIENT
+
+Implement a reusable API client instead of repeating raw fetch calls throughout components.
+
+Read the base URL from:
+
+`VITE_API_BASE_URL`
+
+Provide a safe `.env.example` such as:
+
+```text
+VITE_API_BASE_URL=http://localhost:8080/api/v1
+```
+
+Use the actual backend port and API prefix discovered during inspection.
+
+The API client must support:
+
+- JSON requests and responses
+- Query parameters
+- Request body serialization
+- Appropriate content headers
+- Authentication according to the backend design
+- Consistent error parsing
+- HTTP status handling
+- Cancellation or stale-request protection where appropriate
+- Timeouts if the project uses a suitable supported mechanism
+
+Handle errors such as:
+
+- Network unavailable
+- Backend not running
+- 400 validation error
+- 401 unauthenticated
+- 403 forbidden
+- 404 missing resource
+- 409 reservation or state conflict
+- 500 unexpected server error
+
+Do not expose stack traces or raw internal error details to users.
+
+Show useful error messages and field-level validation messages when the backend provides them.
+
+Do not automatically retry consequential POST requests in a way that could create duplicate reservations or events.
+
+If token refresh or automatic reauthentication is not implemented by the backend, do not pretend that it exists.
+
+---
+
+# 8. AUTHENTICATION AND SESSION HANDLING
+
+Integrate with the real Phase 3 authentication endpoints and their documented response format.
+
+Implement:
+
+- Registration
+- Login
+- Current-user retrieval
+- Logout
+- Authentication loading state
+- Expired-session handling
+- Protected routes
+- Role-sensitive UI controls
+
+Security requirements:
+
+1. Never store passwords in browser storage.
+2. Do not place authentication secrets in source code.
+3. Follow the backend's actual token or session strategy.
+4. If the backend uses bearer tokens, attach them through the centralized API client.
+5. If tokens are stored in browser storage, document the XSS risk and use the backend's supported safer strategy if available.
+6. If the backend uses secure HTTP-only cookies, configure credentialed requests and CORS consistently.
+7. Do not invent a refresh-token endpoint.
+8. Do not let a user register as an administrator through the frontend.
+9. Never rely on hiding a button as the only permission check.
+10. Handle 401 and 403 responses clearly.
+
+If the backend is not yet running, use isolated test mocks for frontend development. Do not represent mock authentication as production authentication.
+
+---
+
+# 9. DASHBOARD — REAL DATABASE-BACKED METRICS
+
+Connect the dashboard to the actual Phase 3 endpoints.
+
+Display supported metrics such as:
+
+- Registered inventory lots or items
+- Recorded physical units
+- Units eligible for reuse
+- Pending reservation requests
+- Verified completed reuse cycles
+- Upcoming events
+- Open repairs
+- Pending inspections
+- Unfulfilled requests
+- Recent activity
+- Event readiness summary
+
+Use the correct unit for every count. Distinguish item count, inventory-lot count, and physical-unit count.
+
+Requirements:
+
+- No hardcoded production dashboard metrics.
+- No fake environmental savings.
+- No invented financial savings.
+- No completed-reuse count derived from reservation approval.
+- Clear loading and error states.
+- Retry option when appropriate.
+- Empty states when the database has no records.
+- Correct authorization for user-specific data.
+
+If the backend cannot provide a metric, omit it or label the unavailable data accurately. Record the missing API in the integration report.
+
+---
+
+# 10. INVENTORY MANAGEMENT
+
+Build a functional inventory experience connected to the real backend.
+
+## Inventory list
+
+Support:
+
+- Search by item name or supported description fields
+- Category filters
+- Department filters
+- Condition filters
+- Lifecycle-status filters
+- Availability filters where supported
+- Sorting
+- Pagination
+- Clear filters
+- Loading and empty states
+
+Do not filter only the currently loaded page when the backend supports server-side filtering.
+
+## Inventory creation and editing
+
+Implement validated forms for fields supported by the backend, such as:
+
+- Item name
+- Description
+- Category
+- Department or owner
+- Location
+- Quantity
+- Condition
+- Status
+- Image reference
+
+Use dropdown values from the backend when available.
+
+Validate quantities and required fields.
+
+Show backend validation errors beside the relevant fields.
+
+Do not permit users to update ownership or status without the required permission.
+
+## Item details
+
+Display:
+
+- Item information
+- Quantity and availability
+- Condition
+- Owning department
+- Storage location
+- Reservation or allocation information allowed for the current user
+- Inspection history
+- Repair history
+- Item activity
+- QR/Reuse Passport entry point
+
+Only display actions supported by the backend and permitted for the user.
+
+---
+
+# 11. EVENT MANAGEMENT
+
+Implement:
+
+- Event list
+- Search and filters
+- Event creation
+- Event details
+- Event editing where permitted
+- Event lifecycle status
+- Material requirements
+- Event readiness view
+
+Event forms should validate:
+
+- Required name
+- Start and end dates
+- Venue and relevant details
+- Authorized organizing department
+- Required material categories or items
+- Positive required quantities
+
+Show dates in a clear local format while preserving the backend's documented timezone convention.
+
+Do not let editing an event silently invalidate existing allocations.
+
+If the backend returns a state conflict, show the user what action needs to be reviewed.
+
+---
+
+# 12. RESERVATION WORKFLOW
+
+Build a complete, user-visible reservation workflow.
+
+## Requesting materials
+
+Users should be able to:
+
+1. Select an authorized event.
+2. View eligible inventory.
+3. Enter the requested quantity.
+4. Review the intended use period.
+5. Submit a reservation request.
+6. Receive a clear confirmation.
+7. Track the reservation status.
+
+Show current availability as informational data. The backend remains authoritative because availability can change between viewing and submission.
+
+## Reviewing requests
+
+Authorized reviewers should be able to:
+
+- View pending requests
+- Inspect requested materials and quantities
+- See relevant event dates
+- Approve requests
+- Reject requests with an explanation
+- Review conflicts or insufficient stock
+- See the final decision and reviewer
+
+## State handling
+
+Handle actual backend statuses without inventing new values.
+
+Disable or hide actions that are invalid for the current state, but also handle backend conflict responses.
+
+Prevent accidental double submissions through UI state. Do not claim that this alone prevents double booking.
+
+If two users compete for the same inventory, show the backend's conflict response and refresh the availability view.
+
+---
+
+# 13. HANDOVER AND RETURN VERIFICATION
+
+Implement the workflow for authorized users to record physical material transfer and return.
+
+Show:
+
+- Reservation reference
+- Item or allocation details
+- Quantity expected
+- Quantity handed over
+- Outstanding return quantity
+- Handover date and verification
+- Return date and verification
+- Reported condition
+- Damage notes where applicable
+
+Support partial returns only when the backend supports them.
+
+Before submitting, validate the user input and show the expected action clearly.
+
+After success, refresh the relevant reservation, inventory, dashboard, and item-history data.
+
+If a return fails validation, preserve the user's input and explain the problem.
+
+Never show a reservation as fully returned merely because one partial return was recorded.
+
+---
+
+# 14. EVENT REUSE READINESS SCORE
+
+Create a dedicated event readiness page or panel.
+
+Connect to the actual readiness API.
+
+Display:
+
+- Event name and date
+- Total required units
+- Eligible allocatable units
+- Remaining shortage
+- Readiness percentage
+- Material-by-material breakdown
+- Unavailable or ineligible stock explanations when provided by the backend
+- A clear status when no requirements have been added
+
+Use the backend's calculated readiness value. Do not recalculate it differently in the frontend.
+
+If the backend returns no requirements, show a message such as:
+
+"Add material requirements to calculate event readiness."
+
+If the API fails, do not show a misleading zero-percent result.
+
+Use an accessible progress indicator with a visible percentage and text label.
+
+Clearly explain that the score measures material availability against recorded requirements. It does not mean that the event is fully sustainable or that environmental savings have already occurred.
+
+---
+
+# 15. REUSE-FIRST DECISION ASSISTANT
+
+Integrate the actual recommendations endpoint.
+
+For each event requirement, display:
+
+- Required quantity
+- Eligible existing stock
+- Suggested reusable quantity
+- Remaining shortage
+- Recommended action
+- Explanation
+- Inspection or repair dependency
+- Alternative information, if supported by verified data
+
+Use clear action labels, such as:
+
+- Reuse existing stock
+- Inspect before use
+- Repair and reassess
+- Check approved alternatives
+- Purchase remaining shortage
+- Add event requirements
+
+Do not create AI-generated recommendations and present them as backend-verified results.
+
+Do not claim that a purchase has been avoided until the application has an appropriate verified outcome record.
+
+If a recommendation depends on inspection or repair, make the dependency obvious.
+
+---
+
+# 16. REUSE PASSPORT AND QR EXPERIENCE
+
+Create a Reuse Passport page for each supported inventory identifier.
+
+Display the actual history returned by the backend, including relevant events such as:
+
+- Registration
+- Reservation allocation
+- Verified handover
+- Verified return
+- Inspection
+- Damage report
+- Repair
+- Repeated completed use
+- Retirement or recorded disposal
+
+For each event, show the date, event type, relevant quantity, and actor details only where permitted.
+
+Requirements:
+
+- Use chronological ordering consistently.
+- Clearly distinguish verified records from reported information.
+- Avoid duplicate timeline entries.
+- Do not fabricate missing history.
+- Do not expose confidential user information.
+- Show a useful message when the item has no history.
+- Handle invalid QR identifiers gracefully.
+
+If QR image generation or scanning is not implemented by the backend or an existing library, identify the gap and use a safe, documented fallback. Never encode credentials or confidential data in a QR code.
+
+---
+
+# 17. INSPECTIONS, REPAIRS AND CONDITION MANAGEMENT
+
+Build usable interfaces for the operations supported by the backend.
+
+## Inspections
+
+- View pending inspection tasks
+- View inspection history
+- Record a condition result
+- Record notes
+- Identify the responsible inspector
+- Refresh inventory eligibility after successful inspection
+
+## Repairs
+
+- View repair records
+- Create a damage or repair report
+- View repair status
+- Update status when authorized
+- Display reported and completed dates
+- Display costs only when recorded
+
+Do not assume a repaired item is available until the backend's required verification has succeeded.
+
+Show clear status labels and action restrictions.
+
+---
+
+# 18. REPORTS AND LOST-OPPORTUNITY TRACKING
+
+Integrate available reporting endpoints.
+
+Provide readable reports for:
+
+- Inventory by category and department
+- Reservation status
+- Verified reuse cycles
+- Repeatedly reused materials
+- Unfulfilled requests
+- Open repairs and repair delays
+- Recorded disposal
+
+Use charts only when actual structured data is available.
+
+Label the units and date ranges.
+
+Avoid double-counting results from backend reports.
+
+Distinguish clearly between:
+
+- Reservation requests
+- Approved reservations
+- Verified handovers
+- Completed reuse
+- User-reported purchase avoidance
+- Verified financial savings, if supported
+- Estimated environmental impact, if a documented methodology exists
+
+Do not generate carbon-saving values from arbitrary assumptions.
+
+If report export is supported, implement it safely. Otherwise, do not display a nonfunctional export button.
+
+---
+
+# 19. NOTIFICATIONS
+
+Implement a notifications interface for the real backend data.
+
+Support:
+
+- Viewing notifications
+- Unread/read indicators
+- Marking notifications as read
+- Navigation to the related item, event, or reservation where supported
+
+Handle empty states and API errors.
+
+Only show notifications belonging to the authenticated user.
+
+Do not display fake real-time notifications. If polling or push updates are not implemented, document the current refresh behavior.
+
+---
+
+# 20. FORM AND API ERROR UX
+
+Every important screen must handle:
+
+- Initial loading
+- Successful data retrieval
+- Empty results
+- Validation errors
+- Network failures
+- Authentication expiry
+- Authorization failure
+- Conflict response
+- Unexpected backend error
+
+Use consistent feedback patterns.
+
+For important actions, such as approval, rejection, handover, return, retirement, or deletion, show an appropriate confirmation step where useful.
+
+Prevent accidental repeated submissions.
+
+Preserve form values after recoverable errors.
+
+Avoid `alert()` as the default interface for every message.
+
+Do not display a success toast before the backend confirms the operation.
+
+---
+
+# 21. TESTING REQUIREMENTS
+
+Implement automated frontend tests using Vitest and React Testing Library, adapting to the existing setup.
+
+## A. API client tests
+
+Test:
+
+- Correct base URL handling
+- Query parameter construction
+- JSON serialization
+- Authorization header behavior
+- Error response parsing
+- Network failure handling
+- 401 and 403 responses
+- 409 conflict handling
+
+## B. Authentication tests
+
+Test:
+
+- Login success
+- Login failure
+- Registration validation
+- Protected route behavior
+- Logout
+- Expired or missing session handling
+- Role-sensitive controls
+
+## C. Inventory tests
+
+Test:
+
+- Loading inventory
+- Displaying actual API data
+- Search and filtering
+- Empty results
+- Pagination
+- Form validation
+- Create/update success
+- Backend errors
+
+## D. Event and readiness tests
+
+Test:
+
+- Event list and details
+- Event creation validation
+- Adding requirements
+- Readiness display from API data
+- No-requirements state
+- API failure state
+- Recommendations and shortage display
+
+## E. Reservation tests
+
+Test:
+
+- Submitting a reservation
+- Pending status
+- Approval/rejection controls
+- Unauthorized actions
+- Conflict response
+- Duplicate-submit prevention
+- Refreshing inventory after an allocation change
+
+## F. Handover and return tests
+
+Test:
+
+- Handover form
+- Return form
+- Partial-return behavior if supported
+- Validation errors
+- Successful status refresh
+- Backend conflict handling
+
+## G. Reuse Passport and reports
+
+Test:
+
+- Timeline rendering
+- Empty history
+- Invalid identifier
+- Report data rendering
+- Correct status labels
+- Absence of fabricated impact metrics
+
+## H. Responsive and accessibility checks
+
+Verify:
+
+- Desktop navigation
+- Tablet layout
+- Mobile navigation
+- Keyboard access
+- Visible focus
+- Form labels
+- Accessible dialogs
+- Progress indicator labels
+- Table or list readability
+- No unintended horizontal overflow
+
+Write actual tests, not just a list of test ideas.
+
+Report the tests that were executed and their results. Do not claim a browser workflow was tested if only unit tests were run.
+
+---
+
+# 22. END-TO-END TEST PLAN
+
+Create `docs/phase-4-test-plan.md`.
+
+Include test IDs, prerequisites, steps, expected results, actual results, and status.
+
+At minimum, test this main journey:
+
+1. Open the application.
+2. Log in with an authorized test account.
+3. View the dashboard.
+4. Open inventory.
+5. Search and filter materials.
+6. View an inventory item's details.
+7. Create an event.
+8. Add event material requirements.
+9. View readiness and recommendations.
+10. Request materials.
+11. Sign in as an authorized reviewer if required.
+12. Approve or reject the request.
+13. Confirm the reservation status and stock availability.
+14. Record handover.
+15. Record the return.
+16. Complete the required condition inspection.
+17. Open the Reuse Passport.
+18. Confirm the actual history.
+19. Review the dashboard and reports.
+20. Verify that the metrics reflect actual completed actions.
+
+Also test:
+
+- Insufficient stock
+- Competing reservation requests
+- Expired authentication
+- Unauthorized approval
+- Invalid event dates
+- Invalid quantities
+- Backend unavailable
+- Empty inventory
+- No event requirements
+- Missing history
+- Repair awaiting inspection
+
+Clearly distinguish tests that require the backend and MySQL from tests that use mocked API responses.
+
+---
+
+# 23. DOCUMENTATION AND ENVIRONMENT
+
+Create or update:
+
+- `README.md`
+- `.env.example`
+- `docs/api-integration.md`
+- `docs/phase-4-test-plan.md`
+
+Document:
+
+- Frontend setup
+- Required Node.js version based on the existing Vite project
+- Install command
+- Development command
+- Test command
+- Production build command
+- Backend URL configuration
+- Authentication behavior
+- Required backend and database setup
+- Implemented screens and workflows
+- Known API gaps
+- Testing limitations
+
+Do not include secrets in `.env.example`.
+
+Ensure the existing repository's lockfile remains consistent with package dependencies.
+
+---
+
+# 24. REQUIRED COMMANDS AND VERIFICATION
+
+Use the package manager already used by the repository.
+
+For npm-based projects, typical commands are:
+
+```bash
+npm install
+npm run dev
+npm run test
+npm run build
+```
+
+Inspect `package.json` first. If the test script does not exist, implement the necessary test setup and add the correct script.
+
+Run the actual commands and fix errors.
+
+Verify:
+
+- The frontend starts.
+- The production build succeeds.
+- Automated tests run.
+- API requests use the configured backend URL.
+- CORS and authentication configuration are compatible.
+- The primary workflows operate against the actual backend where available.
+
+If the backend or MySQL is unavailable, use mocks only for isolated frontend tests and clearly report that full integration could not be verified.
+
+Do not claim end-to-end success based on a successful build alone.
+
+---
+
+# 25. PHASE 4 DEFINITION OF DONE
+
+Phase 4 is complete when:
+
+- The React + Vite frontend remains intact and builds successfully.
+- The frontend uses the actual Phase 3 API contracts.
+- Authentication and protected navigation behave correctly.
+- Inventory and event pages use real backend data.
+- Reservation creation and review work against the backend.
+- Handover and return workflows work where implemented by the backend.
+- Readiness and recommendations display backend-calculated results.
+- Reuse Passport history comes from recorded lifecycle data.
+- Dashboard and reporting metrics are not hardcoded.
+- Loading, empty, validation, and error states are implemented.
+- Responsive and accessibility checks are completed.
+- Automated tests run and their results are recorded.
+- Documentation accurately describes the implemented features and limitations.
+
+Do not mark an API-backed feature complete merely because its screen exists.
+
+---
+
+# 26. FINAL IMPLEMENTATION REPORT
+
+After implementation, provide:
+
+## A. Files created and modified
+List actual paths.
+
+## B. Screens completed
+List screens and actions that genuinely work.
+
+## C. API integration table
+For each major feature, list the endpoint used and whether it was verified against the real backend.
+
+## D. Authentication and permissions
+Explain the implemented session strategy and permission handling.
+
+## E. Test results
+Report tests passed, failed, and not executed.
+
+## F. Build results
+Report the actual development, test, and production-build outcomes.
+
+## G. Screenshots or demonstration evidence
+Provide screenshots of the actual running application if the environment supports them. Do not substitute mockups for real application screenshots.
+
+## H. Remaining gaps
+List missing backend endpoints, environment limitations, and unfinished workflows.
+
+## I. Phase 5 handoff
+Identify what needs to be tested more deeply during system QA, security testing, regression testing, and end-to-end verification.
+
+Begin by inspecting the existing Phase 1, Phase 2, and Phase 3 artifacts. Implement the frontend incrementally, connect it to the actual backend, run the tests and build, fix problems, and report verified results.
+
+Preserve the fixed React + Vite stack. Do not invent API behavior, mock production data, or claim unverified workflows are complete.
+
+
+
+# PHASE 4 MASTER PROMPT — RELOOP CAMPUS
+## React + Vite Frontend Implementation, Spring Boot API Integration, Responsive UI and End-to-End Workflows
+
+Act as a senior React engineer, frontend architect, UX/UI designer, accessibility specialist, API integration engineer, and QA engineer.
+
+Implement Phase 4 of ReLoop Campus directly in the existing project workspace.
+
+Do not merely provide instructions or code snippets. Inspect the existing files, implement the required features, connect the frontend to the actual Spring Boot backend, run the application, test user workflows, fix errors, and report what has genuinely been verified.
+
+The objective is to transform the Phase 1 UI foundation into a functional, responsive application backed by the Phase 2 MySQL database and Phase 3 Java Spring Boot REST APIs.
+
+---
+
+# 1. PROJECT CONTEXT
+
+## Application name
+ReLoop Campus
+
+## Tagline
+"Before buying new, discover what your campus can reuse."
+
+ReLoop Campus is a verified campus reuse platform that helps college departments and event organizers find, reserve, reuse, repair, return, and track event materials.
+
+It addresses repeated purchases caused by fragmented inventory information, unclear item condition, inaccurate availability, reservation conflicts, and poor reuse tracking.
+
+The product must support these three differentiating features:
+
+1. **Event Reuse Readiness Score:** Show how much of an event's material requirement can be fulfilled by eligible, date-compatible inventory.
+2. **Reuse-First Decision Assistant:** Recommend reuse, inspection, repair, approved alternatives, or purchase of the remaining shortage, with transparent reasons.
+3. **Reuse Chain and Lost-Opportunity Tracker:** Display verified item history and surface unmet requests, recurring shortages, repair delays, and recorded disposal.
+
+Also implement the core workflows: authentication, inventory management, event management, reservation approvals, handover and return verification, inspections, repairs, QR-based Reuse Passports, dashboard analytics, notifications, and reports.
+
+---
+
+# 2. INSPECT ALL PREVIOUS PHASES BEFORE CODING
+
+Inspect the existing repository and identify:
+
+- Phase 1 React + Vite project structure and UI.
+- Existing routes, reusable components, styles, design tokens, mock data, and readiness utilities.
+- Phase 2 database schema and business rules.
+- Phase 3 backend endpoints, DTOs, authentication approach, response formats, role model, and API documentation.
+- Existing tests, environment files, and build scripts.
+
+Use the actual API contracts from Phase 3.
+
+Do not invent endpoint paths, response fields, status values, or request formats when the backend documentation or implementation already defines them.
+
+If an endpoint has not been implemented in Phase 3:
+
+1. Identify the missing endpoint.
+2. Determine whether an existing endpoint can safely provide the required information.
+3. If not, document the backend gap clearly.
+4. Implement the frontend loading, empty, and unavailable states.
+5. Do not silently replace the missing endpoint with fake production data.
+
+Preserve the existing design and working code wherever possible. Improve it rather than rebuilding everything from scratch.
+
+---
+
+# 3. FIXED FRONTEND TECHNOLOGY STACK
+
+Use:
+
+- React
+- Vite
+- JavaScript and JSX, unless the existing repository already uses TypeScript
+- React Router
+- Fetch API or the existing HTTP client
+- Plain CSS with reusable CSS variables and component styles
+- Lucide React if icons are needed
+- Vitest
+- React Testing Library
+- `@testing-library/user-event`
+- Mock Service Worker or equivalent API mocking for frontend tests, if appropriate
+
+Do not switch to Next.js, Angular, Vue, or another frontend framework.
+
+Do not rewrite the backend in JavaScript.
+
+Do not introduce a large UI framework unless the project already uses one and there is a clear reason to keep it.
+
+Use the existing package manager and lockfile. Do not replace a working dependency setup unnecessarily.
+
+---
+
+# 4. REQUIRED PROJECT ORGANIZATION
+
+Adapt the existing structure. If necessary, use:
+
+```text
+src/
+├── app/
+│   ├── App.jsx
+│   └── router.jsx
+├── components/
+│   ├── layout/
+│   ├── common/
+│   ├── forms/
+│   ├── inventory/
+│   ├── events/
+│   ├── reservations/
+│   ├── readiness/
+│   ├── history/
+│   └── dashboard/
+├── pages/
+│   ├── LandingPage.jsx
+│   ├── LoginPage.jsx
+│   ├── RegisterPage.jsx
+│   ├── DashboardPage.jsx
+│   ├── InventoryPage.jsx
+│   ├── InventoryDetailsPage.jsx
+│   ├── InventoryCreatePage.jsx
+│   ├── EventsPage.jsx
+│   ├── EventDetailsPage.jsx
+│   ├── EventCreatePage.jsx
+│   ├── EventReadinessPage.jsx
+│   ├── ReservationsPage.jsx
+│   ├── HandoverReturnPage.jsx
+│   ├── ReusePassportPage.jsx
+│   ├── InspectionsPage.jsx
+│   ├── RepairsPage.jsx
+│   ├── ReportsPage.jsx
+│   ├── NotificationsPage.jsx
+│   └── NotFoundPage.jsx
+├── services/
+│   ├── apiClient.js
+│   ├── authService.js
+│   ├── inventoryService.js
+│   ├── eventService.js
+│   ├── reservationService.js
+│   ├── readinessService.js
+│   ├── historyService.js
+│   ├── reportService.js
+│   └── notificationService.js
+├── hooks/
+├── context/
+├── utils/
+├── styles/
+├── test/
+├── main.jsx
+└── index.css
+```
+
+Use a simpler structure if the existing repository already has a clean organization. Avoid creating empty files solely to match this example.
+
+---
+
+# 5. VISUAL DESIGN AND USER EXPERIENCE
+
+Retain and refine the established ReLoop Campus visual identity.
+
+Use the existing design tokens where available. Otherwise use this starting palette:
+
+- Forest green: `#14532D`
+- Deep green: `#123B2A`
+- Cream background: `#F7F5EC`
+- White: `#FFFFFF`
+- Lime accent: `#D9F99D`
+- Soft blue: `#DCEBFF`
+- Soft coral: `#FCE7DF`
+- Lavender: `#E9DDF8`
+- Primary text: `#1F2937`
+- Secondary text: `#64748B`
+- Borders: `#E5E7EB`
+
+Build a polished campus sustainability product, not a generic admin template.
+
+The UI should have:
+
+- A clear navigation hierarchy
+- Consistent page titles and action buttons
+- Well-designed forms and validation messages
+- Readable data tables or responsive list layouts
+- Meaningful status indicators
+- Clear empty, loading, success, and error states
+- Appropriate spacing and typography
+- Accessible color contrast
+- Responsive layouts for desktop, tablet, and mobile
+- Keyboard-friendly interactions
+- Visible focus states
+- Helpful confirmations for destructive or consequential actions
+
+Avoid excessive animations, unnecessary gradients, decorative charts with invented data, and cluttered dashboards.
+
+Do not sacrifice functionality for appearance.
+
+---
+
+# 6. APPLICATION SHELL AND ROUTING
+
+Implement the main application shell with:
+
+- Sidebar or suitable primary navigation
+- Top bar
+- Page content area
+- User profile or account menu
+- Notification entry point
+- Responsive mobile navigation
+- Consistent active-route styling
+- Breadcrumbs where useful
+
+Support routes consistent with the actual application:
+
+- `/`
+- `/login`
+- `/register`
+- `/dashboard`
+- `/inventory`
+- `/inventory/new`
+- `/inventory/:id`
+- `/events`
+- `/events/new`
+- `/events/:id`
+- `/events/:id/readiness`
+- `/reservations`
+- `/handover`
+- `/inventory/:id/reuse-passport`
+- `/inspections`
+- `/repairs`
+- `/reports`
+- `/notifications`
+
+Preserve existing routes if they differ.
+
+Add a useful 404 page.
+
+Implement protected routes and role-sensitive navigation, but remember that backend authorization remains the real security boundary.
+
+After login, redirect the user to the appropriate application page. Handle logout consistently with the actual Phase 3 authentication design.
+
+---
+
+# 7. CENTRAL API CLIENT
+
+Implement a reusable API client instead of repeating raw fetch calls throughout components.
+
+Read the base URL from:
+
+`VITE_API_BASE_URL`
+
+Provide a safe `.env.example` such as:
+
+```text
+VITE_API_BASE_URL=http://localhost:8080/api/v1
+```
+
+Use the actual backend port and API prefix discovered during inspection.
+
+The API client must support:
+
+- JSON requests and responses
+- Query parameters
+- Request body serialization
+- Appropriate content headers
+- Authentication according to the backend design
+- Consistent error parsing
+- HTTP status handling
+- Cancellation or stale-request protection where appropriate
+- Timeouts if the project uses a suitable supported mechanism
+
+Handle errors such as:
+
+- Network unavailable
+- Backend not running
+- 400 validation error
+- 401 unauthenticated
+- 403 forbidden
+- 404 missing resource
+- 409 reservation or state conflict
+- 500 unexpected server error
+
+Do not expose stack traces or raw internal error details to users.
+
+Show useful error messages and field-level validation messages when the backend provides them.
+
+Do not automatically retry consequential POST requests in a way that could create duplicate reservations or events.
+
+If token refresh or automatic reauthentication is not implemented by the backend, do not pretend that it exists.
+
+---
+
+# 8. AUTHENTICATION AND SESSION HANDLING
+
+Integrate with the real Phase 3 authentication endpoints and their documented response format.
+
+Implement:
+
+- Registration
+- Login
+- Current-user retrieval
+- Logout
+- Authentication loading state
+- Expired-session handling
+- Protected routes
+- Role-sensitive UI controls
+
+Security requirements:
+
+1. Never store passwords in browser storage.
+2. Do not place authentication secrets in source code.
+3. Follow the backend's actual token or session strategy.
+4. If the backend uses bearer tokens, attach them through the centralized API client.
+5. If tokens are stored in browser storage, document the XSS risk and use the backend's supported safer strategy if available.
+6. If the backend uses secure HTTP-only cookies, configure credentialed requests and CORS consistently.
+7. Do not invent a refresh-token endpoint.
+8. Do not let a user register as an administrator through the frontend.
+9. Never rely on hiding a button as the only permission check.
+10. Handle 401 and 403 responses clearly.
+
+If the backend is not yet running, use isolated test mocks for frontend development. Do not represent mock authentication as production authentication.
+
+---
+
+# 9. DASHBOARD — REAL DATABASE-BACKED METRICS
+
+Connect the dashboard to the actual Phase 3 endpoints.
+
+Display supported metrics such as:
+
+- Registered inventory lots or items
+- Recorded physical units
+- Units eligible for reuse
+- Pending reservation requests
+- Verified completed reuse cycles
+- Upcoming events
+- Open repairs
+- Pending inspections
+- Unfulfilled requests
+- Recent activity
+- Event readiness summary
+
+Use the correct unit for every count. Distinguish item count, inventory-lot count, and physical-unit count.
+
+Requirements:
+
+- No hardcoded production dashboard metrics.
+- No fake environmental savings.
+- No invented financial savings.
+- No completed-reuse count derived from reservation approval.
+- Clear loading and error states.
+- Retry option when appropriate.
+- Empty states when the database has no records.
+- Correct authorization for user-specific data.
+
+If the backend cannot provide a metric, omit it or label the unavailable data accurately. Record the missing API in the integration report.
+
+---
+
+# 10. INVENTORY MANAGEMENT
+
+Build a functional inventory experience connected to the real backend.
+
+## Inventory list
+
+Support:
+
+- Search by item name or supported description fields
+- Category filters
+- Department filters
+- Condition filters
+- Lifecycle-status filters
+- Availability filters where supported
+- Sorting
+- Pagination
+- Clear filters
+- Loading and empty states
+
+Do not filter only the currently loaded page when the backend supports server-side filtering.
+
+## Inventory creation and editing
+
+Implement validated forms for fields supported by the backend, such as:
+
+- Item name
+- Description
+- Category
+- Department or owner
+- Location
+- Quantity
+- Condition
+- Status
+- Image reference
+
+Use dropdown values from the backend when available.
+
+Validate quantities and required fields.
+
+Show backend validation errors beside the relevant fields.
+
+Do not permit users to update ownership or status without the required permission.
+
+## Item details
+
+Display:
+
+- Item information
+- Quantity and availability
+- Condition
+- Owning department
+- Storage location
+- Reservation or allocation information allowed for the current user
+- Inspection history
+- Repair history
+- Item activity
+- QR/Reuse Passport entry point
+
+Only display actions supported by the backend and permitted for the user.
+
+---
+
+# 11. EVENT MANAGEMENT
+
+Implement:
+
+- Event list
+- Search and filters
+- Event creation
+- Event details
+- Event editing where permitted
+- Event lifecycle status
+- Material requirements
+- Event readiness view
+
+Event forms should validate:
+
+- Required name
+- Start and end dates
+- Venue and relevant details
+- Authorized organizing department
+- Required material categories or items
+- Positive required quantities
+
+Show dates in a clear local format while preserving the backend's documented timezone convention.
+
+Do not let editing an event silently invalidate existing allocations.
+
+If the backend returns a state conflict, show the user what action needs to be reviewed.
+
+---
+
+# 12. RESERVATION WORKFLOW
+
+Build a complete, user-visible reservation workflow.
+
+## Requesting materials
+
+Users should be able to:
+
+1. Select an authorized event.
+2. View eligible inventory.
+3. Enter the requested quantity.
+4. Review the intended use period.
+5. Submit a reservation request.
+6. Receive a clear confirmation.
+7. Track the reservation status.
+
+Show current availability as informational data. The backend remains authoritative because availability can change between viewing and submission.
+
+## Reviewing requests
+
+Authorized reviewers should be able to:
+
+- View pending requests
+- Inspect requested materials and quantities
+- See relevant event dates
+- Approve requests
+- Reject requests with an explanation
+- Review conflicts or insufficient stock
+- See the final decision and reviewer
+
+## State handling
+
+Handle actual backend statuses without inventing new values.
+
+Disable or hide actions that are invalid for the current state, but also handle backend conflict responses.
+
+Prevent accidental double submissions through UI state. Do not claim that this alone prevents double booking.
+
+If two users compete for the same inventory, show the backend's conflict response and refresh the availability view.
+
+---
+
+# 13. HANDOVER AND RETURN VERIFICATION
+
+Implement the workflow for authorized users to record physical material transfer and return.
+
+Show:
+
+- Reservation reference
+- Item or allocation details
+- Quantity expected
+- Quantity handed over
+- Outstanding return quantity
+- Handover date and verification
+- Return date and verification
+- Reported condition
+- Damage notes where applicable
+
+Support partial returns only when the backend supports them.
+
+Before submitting, validate the user input and show the expected action clearly.
+
+After success, refresh the relevant reservation, inventory, dashboard, and item-history data.
+
+If a return fails validation, preserve the user's input and explain the problem.
+
+Never show a reservation as fully returned merely because one partial return was recorded.
+
+---
+
+# 14. EVENT REUSE READINESS SCORE
+
+Create a dedicated event readiness page or panel.
+
+Connect to the actual readiness API.
+
+Display:
+
+- Event name and date
+- Total required units
+- Eligible allocatable units
+- Remaining shortage
+- Readiness percentage
+- Material-by-material breakdown
+- Unavailable or ineligible stock explanations when provided by the backend
+- A clear status when no requirements have been added
+
+Use the backend's calculated readiness value. Do not recalculate it differently in the frontend.
+
+If the backend returns no requirements, show a message such as:
+
+"Add material requirements to calculate event readiness."
+
+If the API fails, do not show a misleading zero-percent result.
+
+Use an accessible progress indicator with a visible percentage and text label.
+
+Clearly explain that the score measures material availability against recorded requirements. It does not mean that the event is fully sustainable or that environmental savings have already occurred.
+
+---
+
+# 15. REUSE-FIRST DECISION ASSISTANT
+
+Integrate the actual recommendations endpoint.
+
+For each event requirement, display:
+
+- Required quantity
+- Eligible existing stock
+- Suggested reusable quantity
+- Remaining shortage
+- Recommended action
+- Explanation
+- Inspection or repair dependency
+- Alternative information, if supported by verified data
+
+Use clear action labels, such as:
+
+- Reuse existing stock
+- Inspect before use
+- Repair and reassess
+- Check approved alternatives
+- Purchase remaining shortage
+- Add event requirements
+
+Do not create AI-generated recommendations and present them as backend-verified results.
+
+Do not claim that a purchase has been avoided until the application has an appropriate verified outcome record.
+
+If a recommendation depends on inspection or repair, make the dependency obvious.
+
+---
+
+# 16. REUSE PASSPORT AND QR EXPERIENCE
+
+Create a Reuse Passport page for each supported inventory identifier.
+
+Display the actual history returned by the backend, including relevant events such as:
+
+- Registration
+- Reservation allocation
+- Verified handover
+- Verified return
+- Inspection
+- Damage report
+- Repair
+- Repeated completed use
+- Retirement or recorded disposal
+
+For each event, show the date, event type, relevant quantity, and actor details only where permitted.
+
+Requirements:
+
+- Use chronological ordering consistently.
+- Clearly distinguish verified records from reported information.
+- Avoid duplicate timeline entries.
+- Do not fabricate missing history.
+- Do not expose confidential user information.
+- Show a useful message when the item has no history.
+- Handle invalid QR identifiers gracefully.
+
+If QR image generation or scanning is not implemented by the backend or an existing library, identify the gap and use a safe, documented fallback. Never encode credentials or confidential data in a QR code.
+
+---
+
+# 17. INSPECTIONS, REPAIRS AND CONDITION MANAGEMENT
+
+Build usable interfaces for the operations supported by the backend.
+
+## Inspections
+
+- View pending inspection tasks
+- View inspection history
+- Record a condition result
+- Record notes
+- Identify the responsible inspector
+- Refresh inventory eligibility after successful inspection
+
+## Repairs
+
+- View repair records
+- Create a damage or repair report
+- View repair status
+- Update status when authorized
+- Display reported and completed dates
+- Display costs only when recorded
+
+Do not assume a repaired item is available until the backend's required verification has succeeded.
+
+Show clear status labels and action restrictions.
+
+---
+
+# 18. REPORTS AND LOST-OPPORTUNITY TRACKING
+
+Integrate available reporting endpoints.
+
+Provide readable reports for:
+
+- Inventory by category and department
+- Reservation status
+- Verified reuse cycles
+- Repeatedly reused materials
+- Unfulfilled requests
+- Open repairs and repair delays
+- Recorded disposal
+
+Use charts only when actual structured data is available.
+
+Label the units and date ranges.
+
+Avoid double-counting results from backend reports.
+
+Distinguish clearly between:
+
+- Reservation requests
+- Approved reservations
+- Verified handovers
+- Completed reuse
+- User-reported purchase avoidance
+- Verified financial savings, if supported
+- Estimated environmental impact, if a documented methodology exists
+
+Do not generate carbon-saving values from arbitrary assumptions.
+
+If report export is supported, implement it safely. Otherwise, do not display a nonfunctional export button.
+
+---
+
+# 19. NOTIFICATIONS
+
+Implement a notifications interface for the real backend data.
+
+Support:
+
+- Viewing notifications
+- Unread/read indicators
+- Marking notifications as read
+- Navigation to the related item, event, or reservation where supported
+
+Handle empty states and API errors.
+
+Only show notifications belonging to the authenticated user.
+
+Do not display fake real-time notifications. If polling or push updates are not implemented, document the current refresh behavior.
+
+---
+
+# 20. FORM AND API ERROR UX
+
+Every important screen must handle:
+
+- Initial loading
+- Successful data retrieval
+- Empty results
+- Validation errors
+- Network failures
+- Authentication expiry
+- Authorization failure
+- Conflict response
+- Unexpected backend error
+
+Use consistent feedback patterns.
+
+For important actions, such as approval, rejection, handover, return, retirement, or deletion, show an appropriate confirmation step where useful.
+
+Prevent accidental repeated submissions.
+
+Preserve form values after recoverable errors.
+
+Avoid `alert()` as the default interface for every message.
+
+Do not display a success toast before the backend confirms the operation.
+
+---
+
+# 21. TESTING REQUIREMENTS
+
+Implement automated frontend tests using Vitest and React Testing Library, adapting to the existing setup.
+
+## A. API client tests
+
+Test:
+
+- Correct base URL handling
+- Query parameter construction
+- JSON serialization
+- Authorization header behavior
+- Error response parsing
+- Network failure handling
+- 401 and 403 responses
+- 409 conflict handling
+
+## B. Authentication tests
+
+Test:
+
+- Login success
+- Login failure
+- Registration validation
+- Protected route behavior
+- Logout
+- Expired or missing session handling
+- Role-sensitive controls
+
+## C. Inventory tests
+
+Test:
+
+- Loading inventory
+- Displaying actual API data
+- Search and filtering
+- Empty results
+- Pagination
+- Form validation
+- Create/update success
+- Backend errors
+
+## D. Event and readiness tests
+
+Test:
+
+- Event list and details
+- Event creation validation
+- Adding requirements
+- Readiness display from API data
+- No-requirements state
+- API failure state
+- Recommendations and shortage display
+
+## E. Reservation tests
+
+Test:
+
+- Submitting a reservation
+- Pending status
+- Approval/rejection controls
+- Unauthorized actions
+- Conflict response
+- Duplicate-submit prevention
+- Refreshing inventory after an allocation change
+
+## F. Handover and return tests
+
+Test:
+
+- Handover form
+- Return form
+- Partial-return behavior if supported
+- Validation errors
+- Successful status refresh
+- Backend conflict handling
+
+## G. Reuse Passport and reports
+
+Test:
+
+- Timeline rendering
+- Empty history
+- Invalid identifier
+- Report data rendering
+- Correct status labels
+- Absence of fabricated impact metrics
+
+## H. Responsive and accessibility checks
+
+Verify:
+
+- Desktop navigation
+- Tablet layout
+- Mobile navigation
+- Keyboard access
+- Visible focus
+- Form labels
+- Accessible dialogs
+- Progress indicator labels
+- Table or list readability
+- No unintended horizontal overflow
+
+Write actual tests, not just a list of test ideas.
+
+Report the tests that were executed and their results. Do not claim a browser workflow was tested if only unit tests were run.
+
+---
+
+# 22. END-TO-END TEST PLAN
+
+Create `docs/phase-4-test-plan.md`.
+
+Include test IDs, prerequisites, steps, expected results, actual results, and status.
+
+At minimum, test this main journey:
+
+1. Open the application.
+2. Log in with an authorized test account.
+3. View the dashboard.
+4. Open inventory.
+5. Search and filter materials.
+6. View an inventory item's details.
+7. Create an event.
+8. Add event material requirements.
+9. View readiness and recommendations.
+10. Request materials.
+11. Sign in as an authorized reviewer if required.
+12. Approve or reject the request.
+13. Confirm the reservation status and stock availability.
+14. Record handover.
+15. Record the return.
+16. Complete the required condition inspection.
+17. Open the Reuse Passport.
+18. Confirm the actual history.
+19. Review the dashboard and reports.
+20. Verify that the metrics reflect actual completed actions.
+
+Also test:
+
+- Insufficient stock
+- Competing reservation requests
+- Expired authentication
+- Unauthorized approval
+- Invalid event dates
+- Invalid quantities
+- Backend unavailable
+- Empty inventory
+- No event requirements
+- Missing history
+- Repair awaiting inspection
+
+Clearly distinguish tests that require the backend and MySQL from tests that use mocked API responses.
+
+---
+
+# 23. DOCUMENTATION AND ENVIRONMENT
+
+Create or update:
+
+- `README.md`
+- `.env.example`
+- `docs/api-integration.md`
+- `docs/phase-4-test-plan.md`
+
+Document:
+
+- Frontend setup
+- Required Node.js version based on the existing Vite project
+- Install command
+- Development command
+- Test command
+- Production build command
+- Backend URL configuration
+- Authentication behavior
+- Required backend and database setup
+- Implemented screens and workflows
+- Known API gaps
+- Testing limitations
+
+Do not include secrets in `.env.example`.
+
+Ensure the existing repository's lockfile remains consistent with package dependencies.
+
+---
+
+# 24. REQUIRED COMMANDS AND VERIFICATION
+
+Use the package manager already used by the repository.
+
+For npm-based projects, typical commands are:
+
+```bash
+npm install
+npm run dev
+npm run test
+npm run build
+```
+
+Inspect `package.json` first. If the test script does not exist, implement the necessary test setup and add the correct script.
+
+Run the actual commands and fix errors.
+
+Verify:
+
+- The frontend starts.
+- The production build succeeds.
+- Automated tests run.
+- API requests use the configured backend URL.
+- CORS and authentication configuration are compatible.
+- The primary workflows operate against the actual backend where available.
+
+If the backend or MySQL is unavailable, use mocks only for isolated frontend tests and clearly report that full integration could not be verified.
+
+Do not claim end-to-end success based on a successful build alone.
+
+---
+
+# 25. PHASE 4 DEFINITION OF DONE
+
+Phase 4 is complete when:
+
+- The React + Vite frontend remains intact and builds successfully.
+- The frontend uses the actual Phase 3 API contracts.
+- Authentication and protected navigation behave correctly.
+- Inventory and event pages use real backend data.
+- Reservation creation and review work against the backend.
+- Handover and return workflows work where implemented by the backend.
+- Readiness and recommendations display backend-calculated results.
+- Reuse Passport history comes from recorded lifecycle data.
+- Dashboard and reporting metrics are not hardcoded.
+- Loading, empty, validation, and error states are implemented.
+- Responsive and accessibility checks are completed.
+- Automated tests run and their results are recorded.
+- Documentation accurately describes the implemented features and limitations.
+
+Do not mark an API-backed feature complete merely because its screen exists.
+
+---
+
+# 26. FINAL IMPLEMENTATION REPORT
+
+After implementation, provide:
+
+## A. Files created and modified
+List actual paths.
+
+## B. Screens completed
+List screens and actions that genuinely work.
+
+## C. API integration table
+For each major feature, list the endpoint used and whether it was verified against the real backend.
+
+## D. Authentication and permissions
+Explain the implemented session strategy and permission handling.
+
+## E. Test results
+Report tests passed, failed, and not executed.
+
+## F. Build results
+Report the actual development, test, and production-build outcomes.
+
+## G. Screenshots or demonstration evidence
+Provide screenshots of the actual running application if the environment supports them. Do not substitute mockups for real application screenshots.
+
+## H. Remaining gaps
+List missing backend endpoints, environment limitations, and unfinished workflows.
+
+## I. Phase 5 handoff
+Identify what needs to be tested more deeply during system QA, security testing, regression testing, and end-to-end verification.
+
+Begin by inspecting the existing Phase 1, Phase 2, and Phase 3 artifacts. Implement the frontend incrementally, connect it to the actual backend, run the tests and build, fix problems, and report verified results.
+
+Preserve the fixed React + Vite stack. Do not invent API behavior, mock production data, or claim unverified workflows are complete.

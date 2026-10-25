@@ -1,0 +1,30 @@
+erDiagram
+    DEPARTMENTS ||--o{ USERS : "employs/enrolls"
+    DEPARTMENTS ||--o{ INVENTORY_ITEMS : "owns_and_stores"
+    DEPARTMENTS ||--o{ CAMPUS_EVENTS : "organizes"
+    
+    USERS ||--o{ USER_ROLES : "assigned"
+    ROLES ||--o{ USER_ROLES : "granted"
+    USERS ||--o{ CAMPUS_EVENTS : "leads"
+    USERS ||--o{ RESERVATIONS : "requests"
+    USERS ||--o{ HANDOVER_RECORDS : "releases/receives"
+    USERS ||--o{ RETURN_RECORDS : "returns/receives"
+    USERS ||--o{ CONDITION_INSPECTIONS : "inspects"
+
+    ITEM_CATEGORIES ||--o{ INVENTORY_ITEMS : "classifies"
+    ITEM_CATEGORIES ||--o{ EVENT_MATERIAL_REQUIREMENTS : "requested_in"
+    ITEM_CATEGORIES ||--o{ UNFULFILLED_REQUESTS : "unmet_in"
+
+    CAMPUS_EVENTS ||--o{ EVENT_MATERIAL_REQUIREMENTS : "specifies"
+    CAMPUS_EVENTS ||--o{ RESERVATIONS : "schedules"
+    CAMPUS_EVENTS ||--o{ UNFULFILLED_REQUESTS : "logs_shortage"
+
+    RESERVATIONS ||--|{ RESERVATION_ITEMS : "contains"
+    INVENTORY_ITEMS ||--o{ RESERVATION_ITEMS : "allocated_to"
+
+    RESERVATIONS ||--o{ HANDOVER_RECORDS : "issues_physical"
+    HANDOVER_RECORDS ||--o{ RETURN_RECORDS : "returns_physical"
+
+    INVENTORY_ITEMS ||--o{ CONDITION_INSPECTIONS : "evaluated_by"
+    INVENTORY_ITEMS ||--o{ REPAIR_RECORDS : "serviced_in"
+    INVENTORY_ITEMS ||--o{ ITEM_LIFECYCLE_EVENTS : "passport_timeline"

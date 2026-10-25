@@ -1,0 +1,6 @@
+{
+  "name": "Loopify",
+  "description": "A verified, intelligent campus reuse platform for college event materials. Before buying new, discover what your campus can reuse.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

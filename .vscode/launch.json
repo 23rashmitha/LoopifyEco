@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot - Loopify Backend (H2 Dev Profile)",
+      "request": "launch",
+      "mainClass": "com.loopify.LoopifyApplication",
+      "projectName": "loopify-campus-backend",
+      "args": "--spring.profiles.active=dev",
+      "cwd": "${workspaceFolder}/backend"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot - Loopify Backend (MySQL Production Profile)",
+      "request": "launch",
+      "mainClass": "com.loopify.LoopifyApplication",
+      "projectName": "loopify-campus-backend",
+      "cwd": "${workspaceFolder}/backend"
+    }
+  ]
+}
